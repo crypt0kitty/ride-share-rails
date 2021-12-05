@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>RideShareRails</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="header">
+<h1>All Drivers</h1>
+</div>
+<div class="navbar">
+  <%= link_to "Home", homepages_path %>
+  <%= link_to "Passengers", passengers_path%>
+  <%= link_to "Drivers", drivers_path%>
+</div>
+<div>
+  <br>
+  <%= link_to 'Add New Driver', new_driver_path %>
+</div>
+<br>
+<ul id = "drivers">
+  <% @drivers.each do |driver|  %>
+    <li>
+      <%= link_to driver.name, driver_path(driver) %> |
+      <%= link_to 'Edit', edit_driver_path(driver[:id]) %> |
+      <%= link_to "Delete", destroy_driver_path(driver[:id]), method: :delete, data: {confirm: "Are you sure?"} %>
+    </li>
+  <% end %>
+</ul>
+<footer>
+    Sand and Rachael (c) 2020
+  </footer>
+  </body>
+</html>
+
+

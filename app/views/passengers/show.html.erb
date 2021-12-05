@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Cherry+Swash&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+<div class="header">
+  <h1> Passenger: <%= @passenger.name %></h1>
+</div>
+<div class="navbar">
+  <%= link_to "Home", homepages_path %>
+  <%= link_to "Passengers", passengers_path%>
+  <%= link_to "Drivers", drivers_path%>
+</div>
+<div class="table-responsive">
+<table >
+  <thead>
+ <tr>
+    <th>Trip ID</th>
+    <th>Driver</th>
+    <th>Passenger</th>
+    <th>Trip Cost</th>
+    <th>Trip Rating</th>
+  </tr>
+  </thead>
+  <tbody >
+  <% @passenger.trips.each do |trip|%>
+  <tr>
+    <td>
+      <%= trip.id %>,<%= link_to " Trip Details", trip_path(trip.id) %>
+    </td>
+    <td><%= trip.driver.name %></td>
+    <td><%= trip.passenger.name %></td>
+    <td><%= number_to_currency(Trip.format_money(trip.cost)) %></td>
+    <td><%= trip.rating %></td>
+  </tr>
+  <% end %>
+  </tbody>
+</table>
+</div>
+<h2>Additional Passenger Information</h2>
+<ul>
+  <h4>
+  <li>Passenger id is: <%= @passenger.id %></li>
+  <li>Total amount billed: $<%= @passenger.passenger_cost %></li>
+    <li>Your phone number is: <%= @passenger.phone_num %></li>
+  </h4>
+</ul>
+<%= link_to 'Add new trip', passenger_trips_path(@passenger), method: :post %>
+<footer>
+Sandy and Rachael (c) 2020
+</footer>
+</body>
+</html>
+
+
+

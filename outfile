@@ -1,0 +1,1011 @@
+Dropped database 'ride_share_rails_development'
+Dropped database 'ride_share_rails_test'
+Created database 'ride_share_rails_development'
+Created database 'ride_share_rails_test'
+Loading raw driver data from /Users/spv/Desktop/Ada_14/ride-share-rails/db/seed_data/drivers.csv
+Created driver: #<Driver id: 1, name: "Bernardo Prosacco", vin: "WBWSS52P9NEYLVDE9", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 2, name: "Emory Rosenbaum", vin: "1B9WEX2R92R12900E", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 3, name: "Daryl Nitzsche", vin: "SAL6P2M2XNHC5Y656", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 4, name: "Jeromy O'Keefe DVM", vin: "L1CKRVH55W8S6S9T1", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 5, name: "Verla Marquardt", vin: "TAMLE35L3MAYRV1JD", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 6, name: "Mr. Hyman Wolf", vin: "L1CXMYNZ3MMGTTYWU", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 7, name: "Lizeth Dickens", vin: "W09XNTZR9KTFK10WW", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 8, name: "Shania Olson", vin: "KPH7TNNL14MDUFNF8", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 9, name: "Simone Hackett", vin: "4RA34A5K3YPN8H5P4", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 10, name: "Dr. Kenton Berge", vin: "SXMMLZX8XGDN7L7TL", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 11, name: "Billy Walsh", vin: "SARJG2FD3A7T21H18", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 12, name: "Ms. Llewellyn Marquardt", vin: "TAMX2B609RPZY1XHT", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 13, name: "Mr. Delbert Gleason", vin: "XF9HBFH148FLD41K8", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 14, name: "Antwan Prosacco", vin: "KPLUTG0L6NW1A0ZRF", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 15, name: "Gayle Herzog", vin: "L1CDHZJ0567RJKCJ6", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 16, name: "Shakira Stamm", vin: "SALUVSAL3WA67SBPZ", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 17, name: "Federico Bins V", vin: "W092FDPH6FNNK102M", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 18, name: "Ms. Kamille Wyman", vin: "SUA4ALKJ0YRFMASB2", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 19, name: "Bill Denesik", vin: "L1C4AHZE55DGBKAK6", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 20, name: "Abby Hettinger", vin: "1C9511EE4YR35640C", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 21, name: "Adell Jacobs", vin: "RF5J464C70D9C3KTB", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 22, name: "Devan O'Kon", vin: "J811TNPS4FYZF4VGU", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 23, name: "Bo Stroman DVM", vin: "1F8C93JX5D62SYRYY", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 24, name: "Camryn Hegmann", vin: "RF3M0UR85BEJHH27W", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 25, name: "Briana Braun", vin: "SU9PYDRK6214WL15M", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 26, name: "Palma Conroy PhD", vin: "KPLD0JH17AMELZAHH", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 27, name: "Nicholas Larkin", vin: "1F90EY0F4DTJ041CS", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 28, name: "Ms. Carmelo Swaniawski", vin: "9BENHE4130KV2P38S", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 29, name: "Miss Gustave Erdman", vin: "WD3HAS8D0ZT3T9XND", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 30, name: "Casper Flatley", vin: "L1CN7SPD96M6SNFYU", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 31, name: "Sheila VonRueden", vin: "KPH9RLSZ9YKNVMGH2", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 32, name: "Belle Rohan", vin: "RF4NN09F9JH8738HF", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 33, name: "Dock Lemke", vin: "VF5JF6DT01CWDCAHJ", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 34, name: "Velma O'Connell", vin: "VF63VETH08Y8CUAKW", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 35, name: "May Rolfson", vin: "W09WNXAX60PBK10PH", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 36, name: "Mr. Marcelina Jenkins", vin: "WD3VLLK2X04HF50PL", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 37, name: "Arnulfo Anderson", vin: "WBW8W7DC0FJLMYCCR", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 38, name: "Albina Dach", vin: "1C91DT907AMU5649F", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 39, name: "Mrs. Skylar Strosin", vin: "WD3R6AJ15CPJZLR0T", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 40, name: "Nicola Blanda IV", vin: "SARFDDM35AL1BESM5", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 41, name: "Mario Olson", vin: "RFWG8S4U59C22CW1F", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 42, name: "Granville Mertz", vin: "1B9TPKC24YPL290Y4", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 43, name: "Mr. Kristy Funk", vin: "KPLZHRBB1E3RSF9WA", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 44, name: "Rusty Turner", vin: "WBT5XKHH6BKH1V82M", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 45, name: "Vanessa Hilpert", vin: "LLD9S75M72GZX3B1H", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 46, name: "Junius Daniel", vin: "8C9UWXN29AYHME1WB", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 47, name: "Jerald Robel", vin: "J811JTDM3UB2STDX6", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 48, name: "Antonietta O'Kon", vin: "1G8ZBYM74NYHJK217", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 49, name: "Stanford Hills", vin: "WD3HFVVW4N1FVPC5X", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 50, name: "Maye Bauch", vin: "1B6FU8M80MVDHHTMD", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 51, name: "Lane Bogan I", vin: "1F8C9NNV613L0RYSM", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 52, name: "Favian Jaskolski", vin: "TAMAMDNT2WGL7H8HW", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 53, name: "Evie Wisoky", vin: "1C9C39EC2XVXACA9T", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 54, name: "Rogers Bartell IV", vin: "1C9EVBRM0YBC564DZ", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 55, name: "Kaitlin Veum", vin: "SAR860AUXSBF8E4W9", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 56, name: "Adriel Swift", vin: "RF5D1APK7B8SDK1HR", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 57, name: "Fermin Jakubowski", vin: "1C9YKRAL923SACAZM", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 58, name: "Miss Arnulfo Heathcote", vin: "3A9D1R1B4F5K068P9", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 59, name: "Kole Stark", vin: "DLAZG3L44NFXP9FN0", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 60, name: "Oma Swift DDS", vin: "TAMCBRPM7EN5GD88L", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 61, name: "Mrs. Everardo Von", vin: "WBTTYCCG00Y9K1VHZ", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 62, name: "Jimmie Boehm", vin: "WD251GUW8HGMJ0ZNZ", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 63, name: "Zachariah Kertzmann", vin: "1F9A1D0651D0041MZ", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 64, name: "Salvador Sawayn", vin: "SUA9K8KA35CZ8X2FT", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 65, name: "Adriana McKenzie", vin: "1B6T67KY436CYBAXM", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 66, name: "Carey Christiansen I", vin: "WBTDYBGY2MKY5XRHV", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 67, name: "Kelley Prosacco MD", vin: "3R9Y9ZMH82KD097KU", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 68, name: "Iliana Harris", vin: "MB4Y2SKH7NX3MRF4W", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 69, name: "Ernesto Torp", vin: "RF4BPA803R4AACTR1", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 70, name: "Meaghan Harvey", vin: "4RA62BCGXGK0KW7GB", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 71, name: "Ms. Samantha Becker", vin: "SXMYX1NY6A1MPG827", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 72, name: "Orlando Huel", vin: "MB4Z24VD69SZ2UP0U", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 73, name: "Augustus Nicolas", vin: "SU9FXMPJ2A7KWL1PZ", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 74, name: "Marley Satterfield IV", vin: "DLADW1MKXLHMCDX3W", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 75, name: "Mohammed Barrows", vin: "4RACJHJL843CUJ46R", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 76, name: "Jay Wintheiser", vin: "RF457CL16G5L41HH5", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 77, name: "Mr. Shanie Gusikowski", vin: "XF9HHMKS402GD41NF", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 78, name: "Casimir Vandervort", vin: "SUA6WS160SW70DUP4", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 79, name: "Vivian Fahey", vin: "WD3Y8KHA4B7CC63K4", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 80, name: "Victoria Windler", vin: "1F9DRSRF78XH041L4", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 81, name: "Amber Boyer", vin: "1F9ZCCZ6XJAG041GX", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 82, name: "Toney Shields MD", vin: "WD3TVFYZ7MB5XVTM8", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 83, name: "Charley Kiehn", vin: "1B6BESZ55PXV3NB40", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 84, name: "Marcellus Little", vin: "SUAZR7LR7EL07VZ11", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 85, name: "Dr. Lambert Kuhlman", vin: "4RAYXBSK2HFSE1PKR", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 86, name: "Garland Pouros", vin: "MB4JNWLU9G5PV1KG4", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 87, name: "Jannie Lubowitz", vin: "SXM5DVE26JE83TSZV", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 88, name: "Anthony Sauer DVM", vin: "1F9GFDFT6MVU04129", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 89, name: "Tracy Huels", vin: "GA1G04255VG79LGCD", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 90, name: "Kristy Cremin", vin: "1F9FF7C27LJA041VR", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 91, name: "Miss Colt Runolfsson", vin: "1A9XL31P6FD5396CN", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 92, name: "Oceane O'Kon", vin: "VF4CK0WS3JY0UVDGJ", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 93, name: "Mrs. Rickey Dickens", vin: "5FS0Y47Z59YGGSXS0", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 94, name: "Arlo Douglas", vin: "SUA0RTWT48E144Z4U", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 95, name: "Dalton Schiller", vin: "8C946K4F3KWRME1PY", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 96, name: "Miss Cali Huel", vin: "TRCDP08V4X1XYADGK", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 97, name: "Haven O'Keefe", vin: "LLD38LYB3ZEN45K2M", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 98, name: "Ms. Winston Emard", vin: "1F9Z5CF13VV8041ND", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 99, name: "Jayden Ledner", vin: "RF4AT3WL6JJXPFUJL", available: false, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Created driver: #<Driver id: 100, name: "Minnie Dach", vin: "XF9Z0ST7X18WD41HT", available: true, created_at: "2020-11-09 19:14:15", updated_at: "2020-11-09 19:14:15">
+Added 100 driver records
+0 drivers failed to save
+Loading raw passenger data from /Users/spv/Desktop/Ada_14/ride-share-rails/db/seed_data/passengers.csv
+Failed to save passenger: #<Passenger id: 1, name: "Nina Hintz Sr.", phone_num: "560.815.3059", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 2, name: "Kaia Klocko", phone_num: "(392) 217-0777", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 3, name: "Marcellus Hoeger", phone_num: "(222) 926-0138", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 4, name: "Ervin Wiza", phone_num: "272-041-9587", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 5, name: "Elmore Heller MD", phone_num: "1-297-522-2558 x431", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 6, name: "Patience Keeling II", phone_num: "412-432-7640", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 7, name: "Emmanuelle Breitenberg", phone_num: "(707) 341-7157 x98757", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 8, name: "Dariana Bernhard IV", phone_num: "1-904-093-5211 x9183", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 9, name: "Merl Glover III", phone_num: "1-602-620-2330 x3723", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 10, name: "Katharina Fisher", phone_num: "686-561-4711 x308", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 11, name: "Annalise Orn", phone_num: "222.752.6773 x113", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 12, name: "Jean Donnelly", phone_num: "120-307-6251 x164", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 13, name: "Dr. Leilani Mertz", phone_num: "777.380.7540", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 14, name: "Dortha Wiegand", phone_num: "989.272.6045", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 15, name: "Miss Lori Okuneva", phone_num: "(317) 197-0404 x7013", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 16, name: "Mr. Onie Spinka", phone_num: "699-582-5703 x5420", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 17, name: "Rebekah Hodkiewicz", phone_num: "(311) 542-6559 x86081", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 18, name: "Victor Kovacek", phone_num: "(368) 630-0443 x43210", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 19, name: "Berenice Abernathy", phone_num: "219-144-2635", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 20, name: "Andre Jerde", phone_num: "(958) 349-8093 x50712", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 21, name: "Jovani Nienow", phone_num: "941-758-7258 x0683", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 22, name: "Gay Mayert", phone_num: "258.896.1072", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 23, name: "Kevin Stark", phone_num: "315.906.2450 x6575", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 24, name: "Dario Rau MD", phone_num: "(638) 455-9446 x08412", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 25, name: "Aric O'Kon", phone_num: "978.529.4671 x523", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 26, name: "Golden Marquardt MD", phone_num: "1-866-930-8624 x352", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 27, name: "Archibald Nitzsche", phone_num: "(202) 356-9605 x2341", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 28, name: "Earlene Bogan", phone_num: "1-295-646-5152", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 29, name: "Florence Fisher IV", phone_num: "(229) 074-9445", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 30, name: "Tre Hegmann", phone_num: "488.926.3178 x37683", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 31, name: "Ms. Enrique Kiehn", phone_num: "416-848-6488 x8656", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 32, name: "Melba Torphy", phone_num: "246.356.5591 x70530", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 33, name: "Cecilia Klocko", phone_num: "536-163-3265 x70743", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 34, name: "Karli Sanford Sr.", phone_num: "(455) 397-6687 x973", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 35, name: "Remington Borer V", phone_num: "(273) 637-3904", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 36, name: "Tyrese Marvin", phone_num: "1-167-515-8578 x40983", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 37, name: "Russ O'Keefe II", phone_num: "1-177-606-1748 x1615", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 38, name: "Christian Pacocha", phone_num: "509.994.4549 x681", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 39, name: "Logan Bauch", phone_num: "(122) 147-0956", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 40, name: "Julius Johns", phone_num: "569-206-0528 x7060", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 41, name: "Ms. Westley Pouros", phone_num: "133.000.1809 x9028", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 42, name: "Marcelina Howe", phone_num: "656-421-8363 x85791", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 43, name: "Dr. Ashlee Roberts", phone_num: "256.402.8661 x519", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 44, name: "Mr. Braeden Reichel", phone_num: "589.775.3350", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 45, name: "Lavina Friesen", phone_num: "1-213-163-6582", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 46, name: "Mr. Barbara Bosco", phone_num: "953-543-7474 x1938", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 47, name: "Gavin Ryan IV", phone_num: "(944) 956-4879 x790", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 48, name: "Abbey Sporer", phone_num: "(712) 565-9368 x3557", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 49, name: "Javier Gulgowski", phone_num: "413.458.3031 x542", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 50, name: "Leonie Smith", phone_num: "1-629-453-3416", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 51, name: "Beverly Yundt", phone_num: "(480) 234-4903 x6388", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 52, name: "Kitty Heaney MD", phone_num: "642-187-8354 x72287", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 53, name: "Dedric Goyette", phone_num: "(551) 932-9300", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 54, name: "Gracie Emmerich", phone_num: "591-707-1595 x0908", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 55, name: "Mrs. Reyes VonRueden", phone_num: "690.953.4563 x550", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 56, name: "Rebecca Moen DVM", phone_num: "(117) 028-4562 x913", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 57, name: "Dallas Cummings", phone_num: "(215) 874-1092 x902", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 58, name: "Dr. Destiny Orn", phone_num: "1-548-683-6914 x436", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 59, name: "Granville Price Sr.", phone_num: "477.906.8699 x83635", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 60, name: "Hillard Quigley", phone_num: "(683) 403-2725", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 61, name: "Lisa Considine", phone_num: "(930) 944-9498 x852", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 62, name: "Donato Hirthe II", phone_num: "948-973-3656", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 63, name: "Quinn Baumbach", phone_num: "973.104.8233 x51135", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 64, name: "Retta Brown", phone_num: "367-989-7333 x822", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 65, name: "Webster Koepp", phone_num: "924.531.8045", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 66, name: "Claudine Greenholt", phone_num: "790-531-6973", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 67, name: "Evie White", phone_num: "292.081.5043 x4294", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 68, name: "Jarvis Gislason", phone_num: "353-589-2965 x842", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 69, name: "Ansel Robel", phone_num: "465.070.8915", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 70, name: "Iva Hickle", phone_num: "449-257-7418 x65480", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 71, name: "Mrs. Linnie Armstrong", phone_num: "638.554.8248", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 72, name: "Mrs. Agustina Johns", phone_num: "(213) 938-6889", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 73, name: "Bertram Schuppe", phone_num: "(265) 815-1732", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 74, name: "Felicity Cole", phone_num: "889-451-6215", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 75, name: "Krystina Huel DVM", phone_num: "1-658-210-5542 x085", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 76, name: "Devin Koss", phone_num: "1-538-085-3994 x66810", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 77, name: "Stanford Yundt", phone_num: "1-714-302-1427 x3760", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 78, name: "Hassan White III", phone_num: "1-919-281-6741", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 79, name: "Dr. Gladys Wilkinson", phone_num: "1-245-565-4763 x153", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 80, name: "Celestine Smith", phone_num: "1-256-942-4605", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 81, name: "Paolo Lynch", phone_num: "785-170-4077", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 82, name: "Charley Rogahn", phone_num: "1-666-034-0080 x3067", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 83, name: "Dr. Cullen Hegmann", phone_num: "1-936-768-4709", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 84, name: "Annabel Ledner", phone_num: "876-812-8666", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 85, name: "Merlin Renner", phone_num: "678-848-0216 x846", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 86, name: "Adrien Raynor", phone_num: "585.810.4813 x18518", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 87, name: "Ms. Emmalee Orn", phone_num: "736.325.5949 x6548", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 88, name: "Conrad Koelpin", phone_num: "286-931-4457 x687", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 89, name: "Jace Osinski", phone_num: "1-726-433-7325 x7274", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 90, name: "Zackary Willms I", phone_num: "471-731-8253 x6048", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 91, name: "Alize Walter III", phone_num: "828.495.1074 x094", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 92, name: "Albina Barrows MD", phone_num: "540-301-5133", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 93, name: "Kaylie Okuneva IV", phone_num: "(170) 751-2406", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 94, name: "Athena Cronin", phone_num: "978.908.7915 x6913", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 95, name: "Elinor Ruecker", phone_num: "438-611-5976 x2124", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 96, name: "Arnold Kautzer", phone_num: "(570) 494-6697", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 97, name: "Winnifred Hoppe", phone_num: "(935) 904-1991 x444", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 98, name: "Emelie Feeney", phone_num: "(579) 933-1380", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 99, name: "Theresia Hessel", phone_num: "1-440-395-0568 x9245", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 100, name: "Hipolito Rogahn", phone_num: "944.179.4883", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 101, name: "Mrs. Keanu Gerlach", phone_num: "(314) 234-3272 x1012", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 102, name: "Laron Fay", phone_num: "(406) 493-3684 x25626", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 103, name: "Marge Cummings", phone_num: "1-862-280-8661", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 104, name: "Anibal Douglas", phone_num: "627-506-6152", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 105, name: "Earline Crist", phone_num: "(354) 972-3036 x965", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 106, name: "Eda Huel", phone_num: "740.330.7670", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 107, name: "Winfield Pouros", phone_num: "273-122-8168", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 108, name: "Abigayle Rau Jr.", phone_num: "1-761-352-4516 x63527", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 109, name: "Thomas Waters V", phone_num: "691.579.4592 x14714", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 110, name: "Howard Predovic Jr.", phone_num: "1-929-242-0808", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 111, name: "Diamond Harris DDS", phone_num: "242-079-8166 x699", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 112, name: "Raphael McCullough II", phone_num: "(986) 895-9022 x981", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 113, name: "Miss Spencer Roob", phone_num: "791-036-8385", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 114, name: "Khalil Orn", phone_num: "(332) 812-6858 x06506", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 115, name: "Ms. Andreanne Littel", phone_num: "550-756-7630", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 116, name: "Laurianne Larkin", phone_num: "567.228.1637 x86366", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 117, name: "Rossie Luettgen MD", phone_num: "211.322.0450", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 118, name: "Nathen Jacobson", phone_num: "212-159-8597 x3145", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 119, name: "Miss Armand Treutel", phone_num: "138-649-0336", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 120, name: "Kassandra Howell", phone_num: "287.160.1892 x919", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 121, name: "Erik Turner III", phone_num: "216-912-1936 x37221", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 122, name: "Courtney Boehm", phone_num: "1-192-160-2459", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 123, name: "Mr. Stanley Kulas", phone_num: "(676) 335-5666", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 124, name: "Willie Cummerata Sr.", phone_num: "700-353-4086 x3607", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 125, name: "Kenyon Schneider Jr.", phone_num: "(508) 848-0063", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 126, name: "Patsy Boehm", phone_num: "959.070.1254 x901", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 127, name: "Alessia Hartmann", phone_num: "920.959.3500", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 128, name: "Aisha Tremblay", phone_num: "(144) 832-8234 x900", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 129, name: "Aubree Treutel", phone_num: "611.597.4223", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 130, name: "Dr. Alyce Beer", phone_num: "(625) 637-3457 x128", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 131, name: "Tanya Murphy", phone_num: "(111) 469-0284", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 132, name: "Althea Kuhic", phone_num: "719.950.9921", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 133, name: "Dr. Kathlyn Robel", phone_num: "1-857-447-4700 x0939", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 134, name: "Astrid Schmeler IV", phone_num: "399.941.0742", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 135, name: "Kayla O'Keefe", phone_num: "153.456.5323", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 136, name: "Jett Schmitt DDS", phone_num: "1-903-807-6445", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 137, name: "Miss Xzavier Hills", phone_num: "(474) 751-9123 x613", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 138, name: "Miss Frida Abshire", phone_num: "(379) 941-0373", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 139, name: "Adah Miller", phone_num: "(139) 629-6031", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 140, name: "Mrs. Mayra Halvorson", phone_num: "683.894.4647 x7521", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 141, name: "Mrs. Elsa Jacobi", phone_num: "(704) 833-6668 x9214", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 142, name: "Armand Kuhlman", phone_num: "1-135-650-4385 x75275", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 143, name: "Carolyne Strosin", phone_num: "700-497-7947 x0176", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 144, name: "Mollie Farrell", phone_num: "456-557-9294", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 145, name: "Miss Paxton Bednar", phone_num: "928-521-7116 x019", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 146, name: "Kirk Hand", phone_num: "(175) 727-5781", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 147, name: "Trevion Hammes Sr.", phone_num: "1-730-945-0044 x94825", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 148, name: "Ms. Noble Kub", phone_num: "139-955-7721", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 149, name: "Kendrick Marks", phone_num: "925.035.9247 x52567", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 150, name: "Angelita Donnelly III", phone_num: "457.104.0961", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 151, name: "Earnest Pacocha", phone_num: "1-110-231-7582 x4319", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 152, name: "Kenyatta Wiza", phone_num: "(527) 640-8511", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 153, name: "Daisha Zboncak DDS", phone_num: "1-227-712-3316 x290", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 154, name: "Crawford Pfeffer", phone_num: "372.588.3654 x152", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 155, name: "Rubye Carter MD", phone_num: "999-359-3649 x2266", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 156, name: "Ms. Kayleigh Nitzsche", phone_num: "(731) 804-8969 x79457", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 157, name: "Yvonne Okuneva IV", phone_num: "(215) 056-6568 x5330", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 158, name: "Mr. Johnpaul Muller", phone_num: "794.250.1223 x13918", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 159, name: "Celestine Blanda PhD", phone_num: "1-343-220-7104 x266", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 160, name: "Garret Hane", phone_num: "248.949.2664", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 161, name: "Marques Wyman", phone_num: "935.138.2407 x25556", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 162, name: "Tomasa Bruen IV", phone_num: "132.932.3611 x4702", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 163, name: "Bailee Yundt", phone_num: "(427) 199-6497", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 164, name: "Dominique Gleason PhD", phone_num: "460.497.2371", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 165, name: "Mertie Rowe", phone_num: "447-076-7468", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 166, name: "Brennon Mohr II", phone_num: "(600) 049-2836 x12982", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 167, name: "Mary Fisher Jr.", phone_num: "1-544-400-7690 x822", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 168, name: "Hayden Wisozk", phone_num: "(332) 422-8680 x79530", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 169, name: "Jaclyn Upton", phone_num: "458-797-3216", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 170, name: "Dock Schmeler", phone_num: "549.749.9578 x21020", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 171, name: "Brandy Parisian", phone_num: "261.469.8464 x39317", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 172, name: "Makenna Lehner", phone_num: "(808) 321-3229 x5707", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 173, name: "Mr. Gia Jakubowski", phone_num: "1-257-501-5007", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 174, name: "Lempi Steuber", phone_num: "1-552-467-6184 x600", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 175, name: "Carter Medhurst", phone_num: "1-932-512-0204", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 176, name: "Hellen Frami", phone_num: "875-612-4447", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 177, name: "Shanie Witting III", phone_num: "(309) 845-2263 x83317", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 178, name: "Lyric Stiedemann", phone_num: "(749) 453-1622 x03482", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 179, name: "Vern Pollich", phone_num: "1-411-679-9794", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 180, name: "Manuela Homenick", phone_num: "982.094.8497", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 181, name: "Talia Kerluke", phone_num: "947.490.0539", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 182, name: "Omari Nader PhD", phone_num: "330.940.0404 x71841", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 183, name: "Pinkie Friesen", phone_num: "173.979.8010 x88161", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 184, name: "Xavier Emard PhD", phone_num: "(259) 254-5545 x4965", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 185, name: "Abdullah Williamson", phone_num: "367-713-4754", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 186, name: "Rosemarie Jakubowski", phone_num: "648.354.0997 x9988", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 187, name: "Crawford Stoltenberg", phone_num: "804.132.9174 x16882", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 188, name: "Mae Thiel", phone_num: "464.592.2939 x92569", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 189, name: "Mireille Torphy", phone_num: "1-129-905-5327", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 190, name: "Elissa Kozey", phone_num: "112-945-3718 x78002", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 191, name: "Mrs. Jackie Bernier", phone_num: "1-280-004-6422 x7398", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 192, name: "Miss Kraig Rolfson", phone_num: "(467) 611-2679", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 193, name: "Thomas Hodkiewicz", phone_num: "221-222-6260 x7867", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 194, name: "Mya Carroll MD", phone_num: "887-701-0841 x4737", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 195, name: "Destinee Cormier", phone_num: "554-000-1348 x99557", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 196, name: "Nyasia McCullough DVM", phone_num: "1-155-862-9800 x3231", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 197, name: "Ryleigh Jast", phone_num: "901-199-0271 x8648", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 198, name: "Reese Gleason", phone_num: "(431) 508-5681 x223", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 199, name: "Mrs. Raymond Legros", phone_num: "(509) 229-8408", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 200, name: "Cecil Halvorson III", phone_num: "455-068-4957 x31138", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 201, name: "Meredith O'Reilly", phone_num: "(220) 815-0823", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 202, name: "Janiya Zieme", phone_num: "1-501-880-8012 x52577", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 203, name: "Antoinette Runte", phone_num: "422.554.6019 x7509", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 204, name: "Bonnie Beatty", phone_num: "622-776-9773 x922", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 205, name: "Miss Clay Larson", phone_num: "(218) 099-2447", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 206, name: "Buster Smitham", phone_num: "1-486-953-1839", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 207, name: "Lenny Dibbert", phone_num: "1-337-699-8456 x6266", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 208, name: "Dina Feeney", phone_num: "1-527-668-1700 x60806", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 209, name: "Ms. Rachael Wuckert", phone_num: "1-790-786-0768 x822", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 210, name: "Rhea Zieme", phone_num: "940-838-2968 x4910", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 211, name: "Ms. Zoila Hoppe", phone_num: "(327) 590-6095", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 212, name: "Fletcher Goldner", phone_num: "437-554-0195 x8747", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 213, name: "Tabitha Brekke", phone_num: "(559) 664-1251", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 214, name: "Stephan Armstrong", phone_num: "1-850-213-2131 x404", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 215, name: "Zackary Hoeger", phone_num: "1-650-496-4636 x801", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 216, name: "Assunta Waters Jr.", phone_num: "(319) 982-0908", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 217, name: "Kira Hagenes", phone_num: "(793) 415-8184 x98200", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 218, name: "Jasen Carroll", phone_num: "225.282.3531 x5156", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 219, name: "Eladio Gleichner", phone_num: "276-651-5935 x124", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 220, name: "Enid Thiel", phone_num: "107-928-8642 x26437", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 221, name: "Jerod Abernathy", phone_num: "1-797-846-1991", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 222, name: "Mrs. Dominic Hayes", phone_num: "1-497-741-6425 x1655", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 223, name: "Cale Konopelski", phone_num: "801.760.8569", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 224, name: "Asia Yundt", phone_num: "256.224.2795", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 225, name: "Daren Batz DVM", phone_num: "1-628-098-6863", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 226, name: "Krystal Wilderman", phone_num: "1-748-755-3350", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 227, name: "Abdul Reilly", phone_num: "(592) 156-1310 x2203", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 228, name: "Ulices Batz", phone_num: "1-793-027-9928", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 229, name: "Randall Streich", phone_num: "411.960.5218", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 230, name: "Pierce Hoeger", phone_num: "494.136.6194", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 231, name: "Marley Cassin", phone_num: "791-451-8440", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 232, name: "Creola Bernier PhD", phone_num: "(138) 423-1993 x0341", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 233, name: "Ernestine Pfannerstill", phone_num: "(664) 208-7421 x310", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 234, name: "Delfina Bogisich", phone_num: "801-784-9149", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 235, name: "Mrs. Dustin Kub", phone_num: "148.363.7787 x995", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 236, name: "Jamil Kovacek", phone_num: "1-321-312-2459 x3205", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 237, name: "Miss Cathy Herman", phone_num: "(186) 628-7305 x078", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 238, name: "Heber Romaguera", phone_num: "1-580-581-8405 x079", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 239, name: "Tyreek Skiles", phone_num: "260-267-8750", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 240, name: "Eliseo Labadie", phone_num: "709-104-6748 x4468", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 241, name: "Dr. Keon Ruecker", phone_num: "976.616.1240 x8187", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 242, name: "Kailee Hickle Sr.", phone_num: "971-698-0478 x3506", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 243, name: "Asa Satterfield", phone_num: "121.792.5214 x46603", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 244, name: "Orrin Greenfelder", phone_num: "146.285.1152", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 245, name: "Eleonore Berge", phone_num: "937-238-2536", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 246, name: "Edyth Miller", phone_num: "(140) 409-9130 x496", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 247, name: "Ms. Chadd Leannon", phone_num: "221-039-2173 x454", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 248, name: "Kamryn Sporer", phone_num: "1-670-453-8435", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 249, name: "Halle Durgan", phone_num: "183-077-0300 x9865", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 250, name: "Kylie Cartwright", phone_num: "734.297.0789 x3288", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 251, name: "Jillian Klocko", phone_num: "699-005-5878", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 252, name: "Cameron Casper IV", phone_num: "377-047-7349", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 253, name: "Mrs. Keara Kozey", phone_num: "1-710-354-9533 x65384", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 254, name: "Meaghan Williamson", phone_num: "848.077.5455", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 255, name: "Mr. Dustin Stroman", phone_num: "769.167.6194 x749", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 256, name: "Kiara Kuhn", phone_num: "458.159.0504 x540", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 257, name: "Annette Volkman Jr.", phone_num: "1-310-932-4684", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 258, name: "Kim Bayer", phone_num: "(495) 861-7483 x05907", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 259, name: "Kristopher Collins Jr.", phone_num: "893-517-8880 x5568", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 260, name: "Arch Koepp", phone_num: "241.009.9299 x0597", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 261, name: "Davion Pacocha DDS", phone_num: "1-971-034-3299 x71384", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 262, name: "Erick Lind", phone_num: "(905) 731-2328", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 263, name: "Autumn Borer IV", phone_num: "(496) 807-7783", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 264, name: "Mrs. Odell Raynor", phone_num: "1-729-057-3767 x80278", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 265, name: "Dessie Crist", phone_num: "872.740.9928", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 266, name: "Kadin Olson", phone_num: "400.669.3623 x71791", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 267, name: "Brandyn Hand", phone_num: "1-120-738-6015 x9899", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 268, name: "Jocelyn Roberts", phone_num: "(134) 882-5516 x0662", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 269, name: "April Zemlak", phone_num: "363-485-0115", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 270, name: "Ms. Tyrel Torp", phone_num: "299.389.6335", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 271, name: "Rollin Halvorson", phone_num: "1-800-820-5456 x42342", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 272, name: "Dr. Jack Lebsack", phone_num: "554.333.4552", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 273, name: "Shakira Satterfield IV", phone_num: "1-392-813-5637", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 274, name: "Marcellus Kris", phone_num: "918.143.9835", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 275, name: "Shayna Johns", phone_num: "918-224-0806 x508", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 276, name: "Edwin Douglas", phone_num: "1-391-957-6932 x99099", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 277, name: "Belle Bechtelar", phone_num: "963.085.7338 x23232", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 278, name: "Kendall Wintheiser", phone_num: "250-123-1768 x501", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 279, name: "Prince Gleason", phone_num: "1-788-221-4269", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 280, name: "Mrs. Dorothy Gottlieb", phone_num: "113-328-3377", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 281, name: "Hilton DuBuque", phone_num: "852-915-4336 x96432", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 282, name: "Josephine Schoen MD", phone_num: "1-443-726-9947 x443", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 283, name: "Clementina Rippin I", phone_num: "582.914.0385 x721", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 284, name: "Mrs. Yesenia Hane", phone_num: "489-348-0781 x4487", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 285, name: "Maddison Reilly", phone_num: "330.376.9142 x12921", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 286, name: "Earnest Tromp", phone_num: "400.748.7179 x869", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 287, name: "Creola Kautzer", phone_num: "(506) 363-4376", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 288, name: "Ellsworth Gerlach", phone_num: "1-165-188-9350 x79027", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 289, name: "Christ Marks", phone_num: "(686) 795-4097", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 290, name: "Quinn Tillman", phone_num: "1-792-899-2953 x22718", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 291, name: "Bria Bosco", phone_num: "1-395-934-4923", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 292, name: "Reba Kozey III", phone_num: "660-848-9493 x0680", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 293, name: "Mr. Adrianna Auer", phone_num: "655.823.7582 x23010", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 294, name: "Mr. Ola Sporer", phone_num: "1-916-091-1165", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 295, name: "Craig Corwin Sr.", phone_num: "(401) 722-0045", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 296, name: "Juana Murray", phone_num: "886.998.6304", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 297, name: "Jamal Pfannerstill", phone_num: "1-446-501-3373 x5818", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 298, name: "Maybelle Wilkinson", phone_num: "569.532.1204", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 299, name: "Sanford Leannon", phone_num: "190.916.9114 x1396", created_at: nil, updated_at: nil>
+Failed to save passenger: #<Passenger id: 300, name: "Miss Isom Gleason", phone_num: "791-114-8423 x70188", created_at: nil, updated_at: nil>
+Added 0 passenger records
+300 passengers failed to save
+Loading raw trip data from /Users/spv/Desktop/Ada_14/ride-share-rails/db/seed_data/trips.csv
+Failed to save trip: #<Trip id: 1, driver_id: 1, passenger_id: 54, date: "2016-04-05", rating: 3, cost: 1293, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 2, driver_id: 67, passenger_id: 146, date: "2016-01-13", rating: 5, cost: 2157, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 3, driver_id: 50, passenger_id: 87, date: "2016-05-02", rating: 3, cost: 1181, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 4, driver_id: 13, passenger_id: 70, date: "2016-05-14", rating: 4, cost: 2436, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 5, driver_id: 3, passenger_id: 12, date: "2015-12-14", rating: 2, cost: 1406, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 6, driver_id: 48, passenger_id: 137, date: "2016-06-02", rating: 5, cost: 1474, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 7, driver_id: 84, passenger_id: 236, date: "2015-05-20", rating: 4, cost: 2476, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 8, driver_id: 93, passenger_id: 104, date: "2016-08-08", rating: 5, cost: 1424, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 9, driver_id: 17, passenger_id: 286, date: "2016-03-03", rating: 5, cost: 2347, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 10, driver_id: 8, passenger_id: 263, date: "2015-12-14", rating: 5, cost: 2329, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 11, driver_id: 71, passenger_id: 149, date: "2016-01-12", rating: 1, cost: 2043, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 12, driver_id: 12, passenger_id: 237, date: "2016-08-21", rating: 1, cost: 2671, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 13, driver_id: 83, passenger_id: 298, date: "2015-05-27", rating: 5, cost: 1287, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 14, driver_id: 48, passenger_id: 247, date: "2015-09-13", rating: 1, cost: 2865, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 15, driver_id: 26, passenger_id: 143, date: "2016-06-17", rating: 5, cost: 2071, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 16, driver_id: 25, passenger_id: 259, date: "2016-05-25", rating: 5, cost: 2129, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 17, driver_id: 21, passenger_id: 63, date: "2015-08-23", rating: 4, cost: 2876, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 18, driver_id: 72, passenger_id: 192, date: "2017-01-10", rating: 1, cost: 2796, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 19, driver_id: 5, passenger_id: 140, date: "2016-02-16", rating: 5, cost: 1388, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 20, driver_id: 3, passenger_id: 8, date: "2016-02-05", rating: 1, cost: 2526, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 21, driver_id: 71, passenger_id: 16, date: "2016-10-16", rating: 2, cost: 1884, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 22, driver_id: 96, passenger_id: 275, date: "2015-03-13", rating: 1, cost: 1809, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 23, driver_id: 51, passenger_id: 189, date: "2015-05-02", rating: 5, cost: 2882, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 24, driver_id: 75, passenger_id: 280, date: "2015-11-04", rating: 4, cost: 1092, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 25, driver_id: 21, passenger_id: 257, date: "2016-05-17", rating: 4, cost: 2369, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 26, driver_id: 92, passenger_id: 194, date: "2016-12-08", rating: 3, cost: 2923, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 27, driver_id: 9, passenger_id: 158, date: "2015-03-12", rating: 4, cost: 2180, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 28, driver_id: 57, passenger_id: 40, date: "2016-03-12", rating: 4, cost: 1900, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 29, driver_id: 45, passenger_id: 127, date: "2016-02-02", rating: 3, cost: 2919, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 30, driver_id: 28, passenger_id: 230, date: "2016-10-12", rating: 5, cost: 2027, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 31, driver_id: 66, passenger_id: 113, date: "2015-07-15", rating: 3, cost: 1148, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 32, driver_id: 20, passenger_id: 57, date: "2016-06-17", rating: 5, cost: 1659, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 33, driver_id: 92, passenger_id: 31, date: "2015-12-09", rating: 5, cost: 2655, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 34, driver_id: 94, passenger_id: 41, date: "2016-05-30", rating: 3, cost: 1406, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 35, driver_id: 84, passenger_id: 148, date: "2016-12-10", rating: 2, cost: 2363, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 36, driver_id: 38, passenger_id: 154, date: "2017-02-08", rating: 2, cost: 2364, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 37, driver_id: 49, passenger_id: 80, date: "2016-04-01", rating: 4, cost: 1465, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 38, driver_id: 16, passenger_id: 281, date: "2016-06-13", rating: 2, cost: 1764, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 39, driver_id: 48, passenger_id: 191, date: "2016-06-03", rating: 2, cost: 1906, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 40, driver_id: 76, passenger_id: 221, date: "2017-01-30", rating: 2, cost: 2437, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 41, driver_id: 56, passenger_id: 35, date: "2015-10-22", rating: 5, cost: 1361, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 42, driver_id: 69, passenger_id: 267, date: "2017-01-14", rating: 2, cost: 2277, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 43, driver_id: 38, passenger_id: 135, date: "2016-11-08", rating: 1, cost: 2095, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 44, driver_id: 17, passenger_id: 146, date: "2016-03-06", rating: 5, cost: 2888, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 45, driver_id: 57, passenger_id: 284, date: "2017-01-28", rating: 4, cost: 1089, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 46, driver_id: 98, passenger_id: 1, date: "2016-06-28", rating: 2, cost: 2070, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 47, driver_id: 88, passenger_id: 157, date: "2016-05-12", rating: 2, cost: 1447, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 48, driver_id: 73, passenger_id: 202, date: "2015-06-24", rating: 1, cost: 1203, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 49, driver_id: 26, passenger_id: 266, date: "2015-11-15", rating: 2, cost: 2564, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 50, driver_id: 47, passenger_id: 277, date: "2015-10-12", rating: 4, cost: 1155, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 51, driver_id: 64, passenger_id: 275, date: "2015-07-01", rating: 5, cost: 2342, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 52, driver_id: 21, passenger_id: 254, date: "2015-11-07", rating: 1, cost: 1477, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 53, driver_id: 9, passenger_id: 119, date: "2015-04-02", rating: 5, cost: 1170, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 54, driver_id: 99, passenger_id: 149, date: "2015-11-27", rating: 1, cost: 2972, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 55, driver_id: 15, passenger_id: 161, date: "2015-07-31", rating: 1, cost: 1103, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 56, driver_id: 31, passenger_id: 85, date: "2016-05-24", rating: 2, cost: 1396, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 57, driver_id: 40, passenger_id: 237, date: "2015-10-21", rating: 3, cost: 2746, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 58, driver_id: 91, passenger_id: 240, date: "2016-06-13", rating: 4, cost: 2328, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 59, driver_id: 97, passenger_id: 65, date: "2016-03-09", rating: 4, cost: 1680, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 60, driver_id: 57, passenger_id: 190, date: "2015-08-09", rating: 1, cost: 2726, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 61, driver_id: 4, passenger_id: 254, date: "2016-11-21", rating: 2, cost: 2999, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 62, driver_id: 29, passenger_id: 253, date: "2016-08-18", rating: 5, cost: 2960, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 63, driver_id: 36, passenger_id: 293, date: "2016-07-14", rating: 2, cost: 1039, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 64, driver_id: 58, passenger_id: 118, date: "2015-06-19", rating: 1, cost: 1680, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 65, driver_id: 49, passenger_id: 258, date: "2015-06-03", rating: 5, cost: 1802, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 66, driver_id: 26, passenger_id: 274, date: "2016-03-15", rating: 3, cost: 2507, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 67, driver_id: 9, passenger_id: 77, date: "2015-11-14", rating: 4, cost: 2112, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 68, driver_id: 94, passenger_id: 53, date: "2015-09-24", rating: 2, cost: 1722, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 69, driver_id: 29, passenger_id: 226, date: "2016-10-20", rating: 1, cost: 2694, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 70, driver_id: 3, passenger_id: 162, date: "2016-09-09", rating: 3, cost: 2039, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 71, driver_id: 42, passenger_id: 29, date: "2015-05-26", rating: 2, cost: 2477, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 72, driver_id: 7, passenger_id: 62, date: "2016-03-19", rating: 3, cost: 2871, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 73, driver_id: 87, passenger_id: 296, date: "2015-10-26", rating: 2, cost: 1118, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 74, driver_id: 94, passenger_id: 118, date: "2015-03-18", rating: 4, cost: 2800, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 75, driver_id: 19, passenger_id: 44, date: "2015-10-25", rating: 5, cost: 1271, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 76, driver_id: 51, passenger_id: 164, date: "2016-10-09", rating: 5, cost: 2620, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 77, driver_id: 40, passenger_id: 205, date: "2016-05-18", rating: 2, cost: 2486, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 78, driver_id: 52, passenger_id: 70, date: "2015-12-23", rating: 1, cost: 2463, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 79, driver_id: 30, passenger_id: 222, date: "2017-02-01", rating: 5, cost: 1704, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 80, driver_id: 88, passenger_id: 175, date: "2016-07-05", rating: 1, cost: 1861, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 81, driver_id: 60, passenger_id: 241, date: "2016-05-22", rating: 2, cost: 1222, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 82, driver_id: 23, passenger_id: 221, date: "2015-12-14", rating: 3, cost: 2299, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 84, driver_id: 61, passenger_id: 217, date: "2015-04-19", rating: 4, cost: 1666, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 85, driver_id: 90, passenger_id: 86, date: "2017-02-05", rating: 3, cost: 2428, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 86, driver_id: 99, passenger_id: 211, date: "2015-06-26", rating: 5, cost: 2732, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 87, driver_id: 20, passenger_id: 138, date: "2016-06-10", rating: 2, cost: 1030, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 89, driver_id: 92, passenger_id: 183, date: "2015-11-19", rating: 5, cost: 1666, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 90, driver_id: 48, passenger_id: 288, date: "2015-03-17", rating: 4, cost: 1962, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 91, driver_id: 42, passenger_id: 81, date: "2015-04-20", rating: 4, cost: 1838, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 92, driver_id: 10, passenger_id: 80, date: "2015-05-13", rating: 1, cost: 2563, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 93, driver_id: 57, passenger_id: 19, date: "2015-06-25", rating: 5, cost: 2568, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 94, driver_id: 47, passenger_id: 139, date: "2015-06-19", rating: 5, cost: 1105, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 95, driver_id: 97, passenger_id: 118, date: "2016-03-06", rating: 1, cost: 2224, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 96, driver_id: 73, passenger_id: 97, date: "2016-12-14", rating: 1, cost: 1474, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 97, driver_id: 54, passenger_id: 271, date: "2016-06-14", rating: 5, cost: 1151, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 98, driver_id: 65, passenger_id: 172, date: "2016-09-18", rating: 1, cost: 1218, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 99, driver_id: 29, passenger_id: 107, date: "2015-07-03", rating: 4, cost: 1268, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 100, driver_id: 29, passenger_id: 138, date: "2016-09-04", rating: 2, cost: 2547, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 101, driver_id: 70, passenger_id: 225, date: "2016-06-24", rating: 1, cost: 1246, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 102, driver_id: 58, passenger_id: 70, date: "2015-07-11", rating: 1, cost: 1183, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 103, driver_id: 72, passenger_id: 26, date: "2015-08-03", rating: 4, cost: 2604, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 104, driver_id: 85, passenger_id: 272, date: "2015-04-27", rating: 4, cost: 1295, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 105, driver_id: 44, passenger_id: 246, date: "2016-09-19", rating: 5, cost: 2738, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 106, driver_id: 65, passenger_id: 45, date: "2017-01-05", rating: 3, cost: 1620, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 107, driver_id: 54, passenger_id: 254, date: "2015-11-18", rating: 2, cost: 2888, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 108, driver_id: 43, passenger_id: 90, date: "2016-11-13", rating: 4, cost: 2786, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 109, driver_id: 5, passenger_id: 165, date: "2016-07-01", rating: 5, cost: 2189, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 110, driver_id: 83, passenger_id: 140, date: "2016-12-30", rating: 1, cost: 1538, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 111, driver_id: 90, passenger_id: 273, date: "2015-12-14", rating: 3, cost: 1400, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 112, driver_id: 78, passenger_id: 145, date: "2016-01-15", rating: 1, cost: 2442, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 113, driver_id: 45, passenger_id: 188, date: "2016-12-30", rating: 3, cost: 2889, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 114, driver_id: 2, passenger_id: 87, date: "2015-08-29", rating: 3, cost: 1662, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 115, driver_id: 16, passenger_id: 35, date: "2015-11-22", rating: 5, cost: 1502, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 116, driver_id: 84, passenger_id: 129, date: "2015-05-16", rating: 2, cost: 2199, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 117, driver_id: 82, passenger_id: 111, date: "2016-12-27", rating: 2, cost: 2390, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 118, driver_id: 2, passenger_id: 234, date: "2016-01-07", rating: 5, cost: 2353, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 119, driver_id: 55, passenger_id: 278, date: "2016-12-04", rating: 3, cost: 1244, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 120, driver_id: 40, passenger_id: 153, date: "2015-07-14", rating: 2, cost: 1370, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 121, driver_id: 29, passenger_id: 106, date: "2016-11-27", rating: 1, cost: 1802, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 122, driver_id: 1, passenger_id: 247, date: "2015-12-24", rating: 5, cost: 2510, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 123, driver_id: 10, passenger_id: 280, date: "2015-11-27", rating: 4, cost: 1827, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 124, driver_id: 1, passenger_id: 26, date: "2016-10-16", rating: 4, cost: 1553, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 125, driver_id: 48, passenger_id: 35, date: "2015-09-14", rating: 1, cost: 1752, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 126, driver_id: 46, passenger_id: 56, date: "2016-10-31", rating: 3, cost: 1426, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 127, driver_id: 30, passenger_id: 15, date: "2016-10-11", rating: 3, cost: 1764, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 128, driver_id: 55, passenger_id: 249, date: "2015-05-21", rating: 2, cost: 2254, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 129, driver_id: 54, passenger_id: 122, date: "2015-12-02", rating: 3, cost: 2239, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 130, driver_id: 46, passenger_id: 273, date: "2016-01-02", rating: 1, cost: 1129, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 131, driver_id: 51, passenger_id: 172, date: "2015-07-25", rating: 4, cost: 1199, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 132, driver_id: 5, passenger_id: 113, date: "2017-02-10", rating: 5, cost: 2391, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 133, driver_id: 12, passenger_id: 240, date: "2015-04-05", rating: 1, cost: 2820, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 134, driver_id: 73, passenger_id: 32, date: "2017-02-26", rating: 2, cost: 2195, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 135, driver_id: 77, passenger_id: 146, date: "2016-05-05", rating: 5, cost: 1945, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 136, driver_id: 38, passenger_id: 147, date: "2015-10-02", rating: 3, cost: 1275, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 137, driver_id: 45, passenger_id: 162, date: "2015-04-05", rating: 1, cost: 2360, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 138, driver_id: 5, passenger_id: 192, date: "2016-08-16", rating: 3, cost: 1280, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 139, driver_id: 56, passenger_id: 88, date: "2016-03-25", rating: 5, cost: 1463, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 140, driver_id: 2, passenger_id: 206, date: "2015-07-21", rating: 2, cost: 1514, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 141, driver_id: 11, passenger_id: 19, date: "2016-08-27", rating: 2, cost: 1387, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 142, driver_id: 40, passenger_id: 294, date: "2016-05-26", rating: 1, cost: 1515, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 143, driver_id: 59, passenger_id: 277, date: "2016-10-06", rating: 4, cost: 2348, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 144, driver_id: 48, passenger_id: 170, date: "2017-03-01", rating: 3, cost: 1569, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 145, driver_id: 58, passenger_id: 185, date: "2015-08-23", rating: 1, cost: 1244, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 146, driver_id: 38, passenger_id: 102, date: "2017-01-20", rating: 4, cost: 2034, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 147, driver_id: 58, passenger_id: 28, date: "2015-04-20", rating: 3, cost: 1779, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 148, driver_id: 48, passenger_id: 133, date: "2015-07-07", rating: 4, cost: 1005, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 149, driver_id: 32, passenger_id: 183, date: "2015-04-12", rating: 1, cost: 2139, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 150, driver_id: 56, passenger_id: 40, date: "2016-01-17", rating: 1, cost: 1736, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 151, driver_id: 80, passenger_id: 273, date: "2015-07-13", rating: 1, cost: 2528, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 152, driver_id: 45, passenger_id: 135, date: "2016-03-25", rating: 3, cost: 1666, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 153, driver_id: 45, passenger_id: 110, date: "2016-05-10", rating: 1, cost: 2669, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 155, driver_id: 65, passenger_id: 194, date: "2016-07-17", rating: 2, cost: 2889, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 156, driver_id: 94, passenger_id: 41, date: "2017-01-01", rating: 4, cost: 1373, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 157, driver_id: 53, passenger_id: 291, date: "2016-04-18", rating: 3, cost: 1982, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 158, driver_id: 80, passenger_id: 207, date: "2016-03-09", rating: 4, cost: 2663, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 159, driver_id: 8, passenger_id: 285, date: "2016-12-31", rating: 5, cost: 2116, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 160, driver_id: 26, passenger_id: 101, date: "2016-01-30", rating: 4, cost: 2971, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 161, driver_id: 50, passenger_id: 245, date: "2016-07-15", rating: 2, cost: 2602, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 162, driver_id: 6, passenger_id: 93, date: "2015-03-09", rating: 4, cost: 1469, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 163, driver_id: 17, passenger_id: 225, date: "2017-03-01", rating: 3, cost: 2648, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 164, driver_id: 38, passenger_id: 26, date: "2015-12-04", rating: 4, cost: 1912, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 165, driver_id: 67, passenger_id: 236, date: "2015-10-25", rating: 5, cost: 1671, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 166, driver_id: 31, passenger_id: 278, date: "2015-08-27", rating: 1, cost: 2098, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 167, driver_id: 67, passenger_id: 37, date: "2017-01-17", rating: 5, cost: 1220, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 168, driver_id: 21, passenger_id: 179, date: "2016-12-04", rating: 4, cost: 2421, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 169, driver_id: 6, passenger_id: 204, date: "2015-05-19", rating: 4, cost: 2416, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 170, driver_id: 92, passenger_id: 6, date: "2016-10-12", rating: 3, cost: 1651, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 171, driver_id: 13, passenger_id: 181, date: "2017-01-06", rating: 1, cost: 1998, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 172, driver_id: 77, passenger_id: 214, date: "2017-01-07", rating: 2, cost: 2321, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 173, driver_id: 93, passenger_id: 57, date: "2016-08-28", rating: 1, cost: 2725, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 174, driver_id: 88, passenger_id: 121, date: "2016-10-30", rating: 3, cost: 1180, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 175, driver_id: 44, passenger_id: 249, date: "2016-06-05", rating: 4, cost: 1520, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 176, driver_id: 11, passenger_id: 139, date: "2017-02-05", rating: 5, cost: 2772, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 177, driver_id: 65, passenger_id: 119, date: "2016-04-26", rating: 2, cost: 2481, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 178, driver_id: 82, passenger_id: 291, date: "2017-01-12", rating: 3, cost: 2708, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 179, driver_id: 8, passenger_id: 93, date: "2016-06-15", rating: 1, cost: 2032, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 180, driver_id: 81, passenger_id: 164, date: "2017-01-28", rating: 3, cost: 2458, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 181, driver_id: 22, passenger_id: 284, date: "2015-05-06", rating: 5, cost: 1339, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 182, driver_id: 64, passenger_id: 111, date: "2016-07-14", rating: 4, cost: 1440, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 183, driver_id: 70, passenger_id: 132, date: "2016-03-03", rating: 2, cost: 2274, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 184, driver_id: 75, passenger_id: 93, date: "2016-04-01", rating: 2, cost: 2353, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 185, driver_id: 98, passenger_id: 83, date: "2015-03-09", rating: 4, cost: 1261, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 186, driver_id: 52, passenger_id: 77, date: "2016-07-12", rating: 3, cost: 1605, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 187, driver_id: 60, passenger_id: 164, date: "2016-07-01", rating: 3, cost: 1496, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 188, driver_id: 71, passenger_id: 124, date: "2016-01-17", rating: 2, cost: 2230, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 189, driver_id: 73, passenger_id: 268, date: "2016-11-26", rating: 1, cost: 2967, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 190, driver_id: 14, passenger_id: 265, date: "2015-04-22", rating: 5, cost: 2712, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 191, driver_id: 9, passenger_id: 197, date: "2016-09-21", rating: 1, cost: 2528, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 192, driver_id: 69, passenger_id: 74, date: "2015-03-17", rating: 3, cost: 2152, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 193, driver_id: 83, passenger_id: 165, date: "2016-10-24", rating: 4, cost: 2945, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 194, driver_id: 4, passenger_id: 207, date: "2017-02-15", rating: 5, cost: 1606, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 195, driver_id: 54, passenger_id: 30, date: "2015-11-25", rating: 5, cost: 1615, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 196, driver_id: 80, passenger_id: 288, date: "2015-06-22", rating: 2, cost: 2957, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 197, driver_id: 95, passenger_id: 162, date: "2015-11-22", rating: 5, cost: 2223, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 198, driver_id: 36, passenger_id: 17, date: "2015-07-23", rating: 1, cost: 1827, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 199, driver_id: 92, passenger_id: 18, date: "2017-01-30", rating: 1, cost: 1360, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 200, driver_id: 93, passenger_id: 186, date: "2016-06-04", rating: 3, cost: 2610, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 201, driver_id: 20, passenger_id: 161, date: "2016-02-20", rating: 1, cost: 2429, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 202, driver_id: 40, passenger_id: 250, date: "2016-04-05", rating: 3, cost: 2387, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 203, driver_id: 97, passenger_id: 85, date: "2016-12-31", rating: 2, cost: 1010, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 204, driver_id: 98, passenger_id: 12, date: "2015-06-09", rating: 2, cost: 1124, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 205, driver_id: 87, passenger_id: 131, date: "2015-07-09", rating: 2, cost: 2266, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 206, driver_id: 47, passenger_id: 225, date: "2015-03-08", rating: 2, cost: 1288, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 207, driver_id: 70, passenger_id: 59, date: "2016-09-24", rating: 1, cost: 1077, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 208, driver_id: 46, passenger_id: 92, date: "2016-06-13", rating: 2, cost: 2450, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 209, driver_id: 94, passenger_id: 141, date: "2016-10-30", rating: 1, cost: 1200, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 210, driver_id: 81, passenger_id: 164, date: "2015-07-14", rating: 5, cost: 1124, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 211, driver_id: 34, passenger_id: 208, date: "2016-06-22", rating: 3, cost: 1122, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 212, driver_id: 28, passenger_id: 89, date: "2015-06-03", rating: 1, cost: 1744, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 213, driver_id: 32, passenger_id: 197, date: "2015-12-27", rating: 5, cost: 2353, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 214, driver_id: 78, passenger_id: 230, date: "2016-12-31", rating: 1, cost: 2573, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 215, driver_id: 41, passenger_id: 233, date: "2016-10-09", rating: 3, cost: 1692, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 216, driver_id: 1, passenger_id: 201, date: "2015-03-24", rating: 1, cost: 1890, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 217, driver_id: 78, passenger_id: 274, date: "2016-09-11", rating: 4, cost: 1018, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 218, driver_id: 11, passenger_id: 147, date: "2016-04-03", rating: 2, cost: 2675, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 219, driver_id: 3, passenger_id: 171, date: "2016-03-12", rating: 4, cost: 2326, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 220, driver_id: 56, passenger_id: 254, date: "2016-02-13", rating: 3, cost: 1788, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 221, driver_id: 25, passenger_id: 207, date: "2016-09-07", rating: 1, cost: 1362, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 222, driver_id: 83, passenger_id: 284, date: "2016-12-01", rating: 5, cost: 1066, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 223, driver_id: 61, passenger_id: 289, date: "2016-05-15", rating: 1, cost: 1549, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 224, driver_id: 57, passenger_id: 141, date: "2016-11-16", rating: 3, cost: 1722, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 225, driver_id: 28, passenger_id: 67, date: "2015-03-24", rating: 4, cost: 2944, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 226, driver_id: 8, passenger_id: 183, date: "2016-09-26", rating: 3, cost: 1354, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 227, driver_id: 11, passenger_id: 198, date: "2016-06-21", rating: 2, cost: 1136, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 228, driver_id: 18, passenger_id: 19, date: "2015-10-10", rating: 5, cost: 1091, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 229, driver_id: 25, passenger_id: 67, date: "2015-11-02", rating: 5, cost: 2103, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 230, driver_id: 99, passenger_id: 233, date: "2016-10-12", rating: 4, cost: 1138, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 231, driver_id: 66, passenger_id: 76, date: "2015-05-11", rating: 2, cost: 2612, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 232, driver_id: 92, passenger_id: 281, date: "2017-02-07", rating: 3, cost: 2506, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 233, driver_id: 80, passenger_id: 191, date: "2016-03-27", rating: 5, cost: 2005, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 234, driver_id: 85, passenger_id: 234, date: "2016-12-08", rating: 2, cost: 2838, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 235, driver_id: 81, passenger_id: 229, date: "2015-12-10", rating: 2, cost: 1547, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 236, driver_id: 2, passenger_id: 263, date: "2015-12-08", rating: 2, cost: 1506, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 237, driver_id: 17, passenger_id: 170, date: "2016-08-09", rating: 2, cost: 1816, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 238, driver_id: 83, passenger_id: 209, date: "2016-12-19", rating: 5, cost: 2697, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 239, driver_id: 52, passenger_id: 177, date: "2015-03-19", rating: 3, cost: 1948, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 240, driver_id: 44, passenger_id: 272, date: "2017-01-15", rating: 4, cost: 1760, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 241, driver_id: 89, passenger_id: 274, date: "2015-12-08", rating: 5, cost: 2847, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 242, driver_id: 34, passenger_id: 14, date: "2016-01-26", rating: 4, cost: 2185, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 243, driver_id: 44, passenger_id: 90, date: "2016-09-14", rating: 2, cost: 2592, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 244, driver_id: 82, passenger_id: 193, date: "2016-10-12", rating: 3, cost: 2068, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 245, driver_id: 62, passenger_id: 34, date: "2016-04-24", rating: 2, cost: 1818, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 246, driver_id: 59, passenger_id: 26, date: "2015-07-02", rating: 2, cost: 1584, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 247, driver_id: 3, passenger_id: 290, date: "2016-03-09", rating: 4, cost: 1033, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 248, driver_id: 66, passenger_id: 214, date: "2015-06-16", rating: 5, cost: 2534, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 249, driver_id: 17, passenger_id: 7, date: "2015-09-27", rating: 3, cost: 1829, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 250, driver_id: 69, passenger_id: 203, date: "2016-04-14", rating: 1, cost: 2575, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 251, driver_id: 54, passenger_id: 265, date: "2016-11-08", rating: 5, cost: 1565, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 252, driver_id: 25, passenger_id: 152, date: "2016-01-26", rating: 4, cost: 1953, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 253, driver_id: 17, passenger_id: 200, date: "2016-12-28", rating: 3, cost: 2247, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 254, driver_id: 4, passenger_id: 37, date: "2015-08-17", rating: 3, cost: 2221, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 255, driver_id: 45, passenger_id: 62, date: "2015-10-15", rating: 4, cost: 1568, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 256, driver_id: 11, passenger_id: 22, date: "2015-10-29", rating: 4, cost: 1541, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 257, driver_id: 26, passenger_id: 141, date: "2016-01-30", rating: 2, cost: 1388, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 258, driver_id: 51, passenger_id: 213, date: "2016-06-26", rating: 4, cost: 1883, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 259, driver_id: 38, passenger_id: 163, date: "2016-12-05", rating: 4, cost: 2137, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 260, driver_id: 42, passenger_id: 258, date: "2015-12-14", rating: 1, cost: 1827, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 261, driver_id: 45, passenger_id: 136, date: "2016-03-24", rating: 4, cost: 2034, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 262, driver_id: 19, passenger_id: 164, date: "2015-08-15", rating: 1, cost: 1663, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 263, driver_id: 30, passenger_id: 108, date: "2017-02-13", rating: 3, cost: 1699, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 264, driver_id: 32, passenger_id: 128, date: "2016-09-02", rating: 5, cost: 1353, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 265, driver_id: 12, passenger_id: 85, date: "2015-08-27", rating: 5, cost: 1305, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 266, driver_id: 66, passenger_id: 176, date: "2015-03-08", rating: 1, cost: 2547, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 268, driver_id: 42, passenger_id: 154, date: "2015-05-22", rating: 2, cost: 1332, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 269, driver_id: 17, passenger_id: 238, date: "2016-01-24", rating: 3, cost: 2289, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 270, driver_id: 70, passenger_id: 210, date: "2016-02-15", rating: 5, cost: 2841, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 271, driver_id: 88, passenger_id: 295, date: "2015-03-12", rating: 3, cost: 1699, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 272, driver_id: 17, passenger_id: 1, date: "2015-09-14", rating: 4, cost: 1652, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 273, driver_id: 7, passenger_id: 88, date: "2015-07-26", rating: 3, cost: 1174, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 274, driver_id: 25, passenger_id: 6, date: "2016-06-24", rating: 3, cost: 2806, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 275, driver_id: 68, passenger_id: 120, date: "2016-04-02", rating: 5, cost: 2755, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 276, driver_id: 7, passenger_id: 204, date: "2015-10-20", rating: 2, cost: 2583, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 277, driver_id: 18, passenger_id: 87, date: "2015-09-21", rating: 3, cost: 2937, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 278, driver_id: 83, passenger_id: 220, date: "2015-10-02", rating: 1, cost: 1467, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 279, driver_id: 47, passenger_id: 278, date: "2015-04-02", rating: 3, cost: 2115, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 280, driver_id: 97, passenger_id: 198, date: "2016-10-03", rating: 4, cost: 2548, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 281, driver_id: 20, passenger_id: 288, date: "2015-03-11", rating: 3, cost: 1172, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 282, driver_id: 52, passenger_id: 288, date: "2016-10-10", rating: 4, cost: 1313, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 283, driver_id: 21, passenger_id: 69, date: "2015-08-20", rating: 3, cost: 2025, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 284, driver_id: 42, passenger_id: 246, date: "2015-04-23", rating: 2, cost: 1469, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 285, driver_id: 65, passenger_id: 88, date: "2015-10-19", rating: 5, cost: 2715, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 286, driver_id: 60, passenger_id: 226, date: "2016-11-11", rating: 5, cost: 2740, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 287, driver_id: 74, passenger_id: 78, date: "2016-01-29", rating: 2, cost: 2653, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 288, driver_id: 70, passenger_id: 140, date: "2015-09-26", rating: 2, cost: 1923, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 289, driver_id: 60, passenger_id: 86, date: "2015-05-19", rating: 2, cost: 1408, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 290, driver_id: 19, passenger_id: 16, date: "2016-06-13", rating: 5, cost: 1241, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 291, driver_id: 95, passenger_id: 235, date: "2015-06-07", rating: 4, cost: 2329, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 292, driver_id: 15, passenger_id: 77, date: "2016-08-25", rating: 5, cost: 2870, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 293, driver_id: 15, passenger_id: 83, date: "2016-08-01", rating: 2, cost: 1556, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 294, driver_id: 54, passenger_id: 232, date: "2015-10-06", rating: 2, cost: 2262, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 295, driver_id: 6, passenger_id: 87, date: "2015-08-14", rating: 1, cost: 2816, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 296, driver_id: 29, passenger_id: 158, date: "2016-06-30", rating: 3, cost: 1881, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 297, driver_id: 19, passenger_id: 7, date: "2016-02-27", rating: 5, cost: 2002, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 298, driver_id: 59, passenger_id: 70, date: "2016-10-28", rating: 2, cost: 1933, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 299, driver_id: 55, passenger_id: 85, date: "2015-11-01", rating: 2, cost: 2918, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 300, driver_id: 90, passenger_id: 251, date: "2016-01-31", rating: 2, cost: 2959, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 301, driver_id: 69, passenger_id: 295, date: "2015-07-11", rating: 2, cost: 2448, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 302, driver_id: 16, passenger_id: 103, date: "2015-12-11", rating: 1, cost: 2938, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 303, driver_id: 98, passenger_id: 203, date: "2016-06-28", rating: 2, cost: 1822, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 304, driver_id: 91, passenger_id: 211, date: "2015-07-10", rating: 1, cost: 1549, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 305, driver_id: 69, passenger_id: 232, date: "2015-05-19", rating: 5, cost: 2735, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 306, driver_id: 49, passenger_id: 89, date: "2017-02-03", rating: 1, cost: 1642, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 307, driver_id: 93, passenger_id: 240, date: "2015-11-26", rating: 4, cost: 2039, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 308, driver_id: 5, passenger_id: 265, date: "2015-09-22", rating: 3, cost: 2459, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 309, driver_id: 45, passenger_id: 210, date: "2015-03-17", rating: 2, cost: 2139, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 310, driver_id: 80, passenger_id: 88, date: "2017-01-22", rating: 4, cost: 1252, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 311, driver_id: 17, passenger_id: 76, date: "2016-03-21", rating: 3, cost: 1845, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 312, driver_id: 3, passenger_id: 279, date: "2015-10-07", rating: 1, cost: 2579, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 313, driver_id: 35, passenger_id: 171, date: "2016-09-18", rating: 1, cost: 1204, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 314, driver_id: 77, passenger_id: 176, date: "2016-02-06", rating: 3, cost: 1834, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 315, driver_id: 49, passenger_id: 79, date: "2016-02-18", rating: 2, cost: 1832, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 316, driver_id: 84, passenger_id: 154, date: "2015-03-13", rating: 2, cost: 2531, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 317, driver_id: 84, passenger_id: 168, date: "2016-09-17", rating: 4, cost: 2334, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 318, driver_id: 67, passenger_id: 217, date: "2015-09-14", rating: 5, cost: 2810, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 319, driver_id: 5, passenger_id: 164, date: "2016-02-03", rating: 1, cost: 1507, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 320, driver_id: 53, passenger_id: 204, date: "2015-04-07", rating: 1, cost: 1784, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 321, driver_id: 72, passenger_id: 148, date: "2015-09-28", rating: 3, cost: 2289, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 322, driver_id: 9, passenger_id: 154, date: "2016-06-07", rating: 3, cost: 2579, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 323, driver_id: 16, passenger_id: 242, date: "2016-02-11", rating: 2, cost: 2388, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 324, driver_id: 28, passenger_id: 254, date: "2015-04-10", rating: 5, cost: 2488, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 325, driver_id: 79, passenger_id: 156, date: "2015-07-18", rating: 4, cost: 1111, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 326, driver_id: 52, passenger_id: 127, date: "2015-10-13", rating: 1, cost: 1358, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 327, driver_id: 72, passenger_id: 56, date: "2015-10-13", rating: 2, cost: 2599, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 328, driver_id: 54, passenger_id: 192, date: "2016-03-10", rating: 1, cost: 1517, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 329, driver_id: 49, passenger_id: 75, date: "2015-12-10", rating: 3, cost: 2694, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 330, driver_id: 8, passenger_id: 137, date: "2015-11-10", rating: 3, cost: 2430, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 331, driver_id: 40, passenger_id: 280, date: "2015-08-22", rating: 5, cost: 2374, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 332, driver_id: 81, passenger_id: 96, date: "2017-01-22", rating: 3, cost: 1845, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 333, driver_id: 75, passenger_id: 80, date: "2015-05-29", rating: 4, cost: 1120, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 334, driver_id: 70, passenger_id: 231, date: "2016-01-03", rating: 1, cost: 1914, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 335, driver_id: 90, passenger_id: 243, date: "2016-06-24", rating: 3, cost: 2384, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 336, driver_id: 42, passenger_id: 244, date: "2016-09-11", rating: 1, cost: 2498, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 337, driver_id: 31, passenger_id: 45, date: "2016-11-10", rating: 2, cost: 1241, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 338, driver_id: 67, passenger_id: 51, date: "2016-12-30", rating: 1, cost: 2967, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 339, driver_id: 8, passenger_id: 182, date: "2016-08-07", rating: 2, cost: 2968, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 340, driver_id: 51, passenger_id: 142, date: "2016-01-03", rating: 4, cost: 1213, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 341, driver_id: 96, passenger_id: 3, date: "2016-02-28", rating: 2, cost: 2427, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 342, driver_id: 39, passenger_id: 54, date: "2016-02-29", rating: 2, cost: 1027, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 343, driver_id: 23, passenger_id: 170, date: "2015-08-28", rating: 3, cost: 1500, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 344, driver_id: 43, passenger_id: 249, date: "2016-02-26", rating: 3, cost: 1557, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 345, driver_id: 13, passenger_id: 99, date: "2015-03-26", rating: 5, cost: 2923, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 346, driver_id: 39, passenger_id: 293, date: "2016-07-19", rating: 3, cost: 2883, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 347, driver_id: 5, passenger_id: 74, date: "2016-06-09", rating: 4, cost: 1351, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 348, driver_id: 76, passenger_id: 51, date: "2015-08-13", rating: 2, cost: 1263, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 349, driver_id: 44, passenger_id: 105, date: "2016-07-01", rating: 4, cost: 2749, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 350, driver_id: 78, passenger_id: 179, date: "2016-01-31", rating: 5, cost: 1255, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 351, driver_id: 87, passenger_id: 79, date: "2015-06-08", rating: 5, cost: 1781, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 352, driver_id: 13, passenger_id: 88, date: "2016-08-06", rating: 4, cost: 1256, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 353, driver_id: 22, passenger_id: 24, date: "2016-11-26", rating: 3, cost: 2745, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 354, driver_id: 95, passenger_id: 120, date: "2015-03-28", rating: 3, cost: 1035, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 355, driver_id: 54, passenger_id: 45, date: "2015-04-02", rating: 2, cost: 2060, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 356, driver_id: 46, passenger_id: 292, date: "2016-11-24", rating: 1, cost: 2419, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 357, driver_id: 69, passenger_id: 239, date: "2016-05-01", rating: 2, cost: 2268, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 358, driver_id: 32, passenger_id: 58, date: "2015-04-20", rating: 1, cost: 1294, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 359, driver_id: 41, passenger_id: 230, date: "2015-07-18", rating: 2, cost: 1101, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 360, driver_id: 20, passenger_id: 133, date: "2016-05-06", rating: 2, cost: 2988, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 361, driver_id: 72, passenger_id: 136, date: "2016-05-13", rating: 3, cost: 2071, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 362, driver_id: 33, passenger_id: 237, date: "2016-01-30", rating: 4, cost: 2597, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 363, driver_id: 72, passenger_id: 246, date: "2016-11-05", rating: 1, cost: 2922, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 364, driver_id: 4, passenger_id: 257, date: "2016-01-15", rating: 5, cost: 1029, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 365, driver_id: 45, passenger_id: 151, date: "2015-04-05", rating: 2, cost: 2463, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 366, driver_id: 76, passenger_id: 260, date: "2017-01-19", rating: 1, cost: 2234, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 367, driver_id: 71, passenger_id: 45, date: "2017-02-07", rating: 2, cost: 2370, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 368, driver_id: 20, passenger_id: 179, date: "2015-03-16", rating: 3, cost: 2274, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 369, driver_id: 65, passenger_id: 224, date: "2016-10-05", rating: 4, cost: 2264, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 370, driver_id: 97, passenger_id: 159, date: "2015-12-06", rating: 5, cost: 2270, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 371, driver_id: 41, passenger_id: 218, date: "2015-08-07", rating: 1, cost: 1274, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 372, driver_id: 90, passenger_id: 63, date: "2015-05-22", rating: 2, cost: 1743, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 373, driver_id: 15, passenger_id: 281, date: "2016-05-09", rating: 4, cost: 2626, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 374, driver_id: 78, passenger_id: 240, date: "2015-09-06", rating: 2, cost: 1413, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 375, driver_id: 81, passenger_id: 211, date: "2016-01-20", rating: 2, cost: 2563, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 376, driver_id: 66, passenger_id: 97, date: "2016-05-08", rating: 5, cost: 2001, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 377, driver_id: 36, passenger_id: 252, date: "2015-06-01", rating: 2, cost: 2075, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 378, driver_id: 21, passenger_id: 59, date: "2015-05-18", rating: 1, cost: 1698, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 379, driver_id: 63, passenger_id: 172, date: "2016-04-04", rating: 2, cost: 1477, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 380, driver_id: 83, passenger_id: 262, date: "2017-01-25", rating: 4, cost: 1652, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 381, driver_id: 77, passenger_id: 12, date: "2015-06-13", rating: 5, cost: 1087, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 382, driver_id: 58, passenger_id: 113, date: "2015-10-06", rating: 4, cost: 2361, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 383, driver_id: 10, passenger_id: 2, date: "2015-07-14", rating: 2, cost: 1108, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 384, driver_id: 91, passenger_id: 212, date: "2015-08-10", rating: 4, cost: 1417, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 385, driver_id: 12, passenger_id: 208, date: "2016-09-20", rating: 1, cost: 2367, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 386, driver_id: 58, passenger_id: 236, date: "2015-07-03", rating: 1, cost: 1068, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 387, driver_id: 95, passenger_id: 245, date: "2016-06-06", rating: 5, cost: 2397, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 388, driver_id: 37, passenger_id: 265, date: "2015-11-30", rating: 3, cost: 1988, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 389, driver_id: 34, passenger_id: 195, date: "2015-10-08", rating: 1, cost: 2227, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 390, driver_id: 39, passenger_id: 170, date: "2016-06-18", rating: 4, cost: 1711, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 391, driver_id: 59, passenger_id: 238, date: "2016-05-09", rating: 3, cost: 1550, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 392, driver_id: 19, passenger_id: 62, date: "2016-12-24", rating: 5, cost: 2972, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 393, driver_id: 98, passenger_id: 290, date: "2015-08-22", rating: 5, cost: 2562, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 394, driver_id: 85, passenger_id: 180, date: "2015-05-01", rating: 2, cost: 2557, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 395, driver_id: 30, passenger_id: 214, date: "2016-04-27", rating: 4, cost: 1587, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 396, driver_id: 80, passenger_id: 137, date: "2017-02-01", rating: 5, cost: 1281, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 397, driver_id: 92, passenger_id: 276, date: "2015-12-31", rating: 3, cost: 2588, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 398, driver_id: 54, passenger_id: 220, date: "2016-08-07", rating: 4, cost: 1627, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 399, driver_id: 64, passenger_id: 144, date: "2017-01-30", rating: 2, cost: 1814, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 400, driver_id: 9, passenger_id: 132, date: "2016-10-19", rating: 5, cost: 1836, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 401, driver_id: 41, passenger_id: 231, date: "2016-06-15", rating: 2, cost: 2431, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 402, driver_id: 64, passenger_id: 33, date: "2017-02-19", rating: 3, cost: 1015, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 403, driver_id: 24, passenger_id: 181, date: "2016-11-06", rating: 3, cost: 2772, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 404, driver_id: 71, passenger_id: 44, date: "2016-12-11", rating: 4, cost: 2289, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 405, driver_id: 34, passenger_id: 125, date: "2015-08-14", rating: 5, cost: 2950, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 406, driver_id: 77, passenger_id: 248, date: "2015-08-07", rating: 5, cost: 2698, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 407, driver_id: 95, passenger_id: 240, date: "2015-07-21", rating: 5, cost: 1425, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 408, driver_id: 98, passenger_id: 124, date: "2015-05-08", rating: 5, cost: 1743, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 409, driver_id: 64, passenger_id: 202, date: "2016-03-01", rating: 1, cost: 1782, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 410, driver_id: 72, passenger_id: 189, date: "2016-09-11", rating: 1, cost: 2156, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 411, driver_id: 82, passenger_id: 61, date: "2016-03-18", rating: 1, cost: 1440, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 412, driver_id: 21, passenger_id: 243, date: "2015-05-28", rating: 4, cost: 2261, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 413, driver_id: 71, passenger_id: 167, date: "2016-04-14", rating: 1, cost: 1853, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 414, driver_id: 84, passenger_id: 196, date: "2016-04-16", rating: 2, cost: 1775, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 415, driver_id: 10, passenger_id: 169, date: "2016-08-03", rating: 5, cost: 2216, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 416, driver_id: 78, passenger_id: 20, date: "2016-01-23", rating: 4, cost: 2122, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 417, driver_id: 1, passenger_id: 129, date: "2015-03-29", rating: 1, cost: 2791, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 418, driver_id: 28, passenger_id: 235, date: "2016-08-13", rating: 4, cost: 2460, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 419, driver_id: 34, passenger_id: 81, date: "2016-04-13", rating: 3, cost: 1683, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 420, driver_id: 99, passenger_id: 92, date: "2016-10-08", rating: 1, cost: 1105, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 421, driver_id: 46, passenger_id: 92, date: "2016-04-10", rating: 1, cost: 1114, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 422, driver_id: 38, passenger_id: 85, date: "2016-06-24", rating: 2, cost: 2812, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 423, driver_id: 99, passenger_id: 245, date: "2016-06-29", rating: 5, cost: 2970, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 424, driver_id: 66, passenger_id: 139, date: "2016-09-18", rating: 2, cost: 2916, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 425, driver_id: 18, passenger_id: 257, date: "2016-01-09", rating: 4, cost: 1446, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 426, driver_id: 60, passenger_id: 205, date: "2016-08-28", rating: 2, cost: 2686, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 427, driver_id: 74, passenger_id: 12, date: "2015-04-18", rating: 5, cost: 1474, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 428, driver_id: 16, passenger_id: 105, date: "2016-11-22", rating: 4, cost: 2102, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 429, driver_id: 43, passenger_id: 163, date: "2015-08-11", rating: 4, cost: 2334, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 430, driver_id: 3, passenger_id: 15, date: "2016-02-10", rating: 5, cost: 1917, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 431, driver_id: 12, passenger_id: 197, date: "2016-08-11", rating: 5, cost: 2665, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 432, driver_id: 22, passenger_id: 57, date: "2016-09-15", rating: 3, cost: 2347, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 433, driver_id: 64, passenger_id: 225, date: "2016-12-22", rating: 1, cost: 2056, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 434, driver_id: 1, passenger_id: 112, date: "2015-06-07", rating: 2, cost: 2779, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 435, driver_id: 49, passenger_id: 267, date: "2015-09-12", rating: 4, cost: 1790, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 436, driver_id: 58, passenger_id: 182, date: "2017-01-06", rating: 2, cost: 1194, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 437, driver_id: 13, passenger_id: 132, date: "2016-07-20", rating: 5, cost: 2701, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 438, driver_id: 4, passenger_id: 85, date: "2015-09-17", rating: 4, cost: 2703, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 439, driver_id: 1, passenger_id: 146, date: "2015-09-23", rating: 1, cost: 1179, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 440, driver_id: 19, passenger_id: 143, date: "2016-10-18", rating: 2, cost: 1425, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 441, driver_id: 4, passenger_id: 236, date: "2016-12-23", rating: 4, cost: 2305, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 442, driver_id: 21, passenger_id: 289, date: "2016-08-25", rating: 1, cost: 2860, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 443, driver_id: 42, passenger_id: 39, date: "2016-03-27", rating: 4, cost: 2896, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 444, driver_id: 71, passenger_id: 183, date: "2016-11-18", rating: 1, cost: 2308, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 445, driver_id: 91, passenger_id: 132, date: "2016-03-25", rating: 3, cost: 1800, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 446, driver_id: 26, passenger_id: 209, date: "2016-01-10", rating: 5, cost: 1921, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 447, driver_id: 47, passenger_id: 148, date: "2015-08-30", rating: 5, cost: 2207, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 448, driver_id: 90, passenger_id: 63, date: "2016-09-22", rating: 5, cost: 2520, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 449, driver_id: 90, passenger_id: 228, date: "2016-08-01", rating: 5, cost: 1818, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 450, driver_id: 40, passenger_id: 76, date: "2015-10-10", rating: 2, cost: 1304, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 451, driver_id: 2, passenger_id: 233, date: "2015-08-17", rating: 5, cost: 1984, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 452, driver_id: 53, passenger_id: 139, date: "2015-11-28", rating: 4, cost: 1398, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 453, driver_id: 89, passenger_id: 234, date: "2016-04-24", rating: 4, cost: 2010, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 454, driver_id: 82, passenger_id: 137, date: "2016-09-22", rating: 4, cost: 2075, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 455, driver_id: 57, passenger_id: 219, date: "2015-08-13", rating: 5, cost: 1748, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 456, driver_id: 78, passenger_id: 13, date: "2016-03-14", rating: 4, cost: 1676, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 457, driver_id: 83, passenger_id: 161, date: "2015-04-23", rating: 5, cost: 2220, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 458, driver_id: 48, passenger_id: 285, date: "2016-03-22", rating: 2, cost: 1897, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 459, driver_id: 21, passenger_id: 211, date: "2016-03-29", rating: 3, cost: 1019, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 460, driver_id: 34, passenger_id: 144, date: "2017-02-16", rating: 1, cost: 2006, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 461, driver_id: 68, passenger_id: 236, date: "2016-12-21", rating: 2, cost: 2069, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 462, driver_id: 8, passenger_id: 292, date: "2016-07-31", rating: 5, cost: 2283, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 463, driver_id: 95, passenger_id: 125, date: "2017-01-16", rating: 2, cost: 1207, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 464, driver_id: 62, passenger_id: 237, date: "2016-02-08", rating: 4, cost: 1132, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 465, driver_id: 12, passenger_id: 214, date: "2015-08-01", rating: 1, cost: 2761, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 466, driver_id: 18, passenger_id: 135, date: "2016-12-17", rating: 4, cost: 1507, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 467, driver_id: 51, passenger_id: 139, date: "2016-01-09", rating: 2, cost: 1665, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 468, driver_id: 27, passenger_id: 161, date: "2015-04-28", rating: 1, cost: 1980, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 469, driver_id: 61, passenger_id: 176, date: "2016-05-01", rating: 4, cost: 1292, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 470, driver_id: 86, passenger_id: 253, date: "2016-04-14", rating: 3, cost: 1052, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 471, driver_id: 86, passenger_id: 192, date: "2017-01-19", rating: 3, cost: 2144, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 472, driver_id: 2, passenger_id: 191, date: "2016-09-07", rating: 3, cost: 2570, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 473, driver_id: 66, passenger_id: 223, date: "2016-11-24", rating: 4, cost: 2251, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 474, driver_id: 39, passenger_id: 73, date: "2016-08-27", rating: 3, cost: 2829, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 475, driver_id: 30, passenger_id: 22, date: "2015-11-24", rating: 2, cost: 1601, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 476, driver_id: 54, passenger_id: 38, date: "2015-09-04", rating: 5, cost: 1786, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 477, driver_id: 56, passenger_id: 30, date: "2015-10-16", rating: 5, cost: 1602, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 478, driver_id: 31, passenger_id: 253, date: "2015-06-26", rating: 5, cost: 2366, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 479, driver_id: 30, passenger_id: 250, date: "2016-05-25", rating: 2, cost: 2440, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 480, driver_id: 96, passenger_id: 70, date: "2016-06-08", rating: 1, cost: 2947, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 481, driver_id: 81, passenger_id: 168, date: "2015-05-20", rating: 5, cost: 1747, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 482, driver_id: 8, passenger_id: 194, date: "2016-07-24", rating: 2, cost: 2650, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 483, driver_id: 44, passenger_id: 179, date: "2015-07-28", rating: 5, cost: 1709, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 484, driver_id: 52, passenger_id: 16, date: "2015-09-30", rating: 3, cost: 2599, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 485, driver_id: 40, passenger_id: 287, date: "2016-02-01", rating: 5, cost: 1626, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 486, driver_id: 24, passenger_id: 114, date: "2016-04-27", rating: 5, cost: 2002, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 487, driver_id: 82, passenger_id: 218, date: "2016-10-09", rating: 1, cost: 1908, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 488, driver_id: 82, passenger_id: 90, date: "2016-09-13", rating: 1, cost: 1646, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 489, driver_id: 44, passenger_id: 117, date: "2016-06-13", rating: 3, cost: 1056, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 490, driver_id: 47, passenger_id: 88, date: "2017-02-07", rating: 4, cost: 2052, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 491, driver_id: 81, passenger_id: 27, date: "2016-08-10", rating: 3, cost: 2649, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 492, driver_id: 13, passenger_id: 9, date: "2016-07-02", rating: 5, cost: 2671, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 493, driver_id: 79, passenger_id: 215, date: "2016-07-09", rating: 1, cost: 1931, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 494, driver_id: 28, passenger_id: 269, date: "2015-06-14", rating: 3, cost: 2136, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 495, driver_id: 55, passenger_id: 232, date: "2017-02-27", rating: 1, cost: 1724, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 496, driver_id: 4, passenger_id: 82, date: "2016-08-03", rating: 4, cost: 2124, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 497, driver_id: 43, passenger_id: 153, date: "2016-04-27", rating: 3, cost: 2524, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 498, driver_id: 28, passenger_id: 246, date: "2016-12-18", rating: 4, cost: 2575, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 499, driver_id: 69, passenger_id: 296, date: "2016-10-04", rating: 3, cost: 2211, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 500, driver_id: 5, passenger_id: 74, date: "2015-12-04", rating: 2, cost: 2749, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 501, driver_id: 65, passenger_id: 40, date: "2016-03-23", rating: 1, cost: 1249, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 502, driver_id: 98, passenger_id: 209, date: "2017-01-11", rating: 1, cost: 2941, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 503, driver_id: 21, passenger_id: 104, date: "2015-04-28", rating: 1, cost: 1160, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 504, driver_id: 60, passenger_id: 165, date: "2015-05-06", rating: 4, cost: 1502, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 505, driver_id: 74, passenger_id: 92, date: "2017-01-18", rating: 2, cost: 1378, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 506, driver_id: 15, passenger_id: 144, date: "2015-11-01", rating: 5, cost: 1439, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 507, driver_id: 74, passenger_id: 168, date: "2015-09-22", rating: 2, cost: 1532, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 508, driver_id: 77, passenger_id: 191, date: "2015-03-11", rating: 5, cost: 1524, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 509, driver_id: 96, passenger_id: 99, date: "2015-07-29", rating: 5, cost: 2738, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 510, driver_id: 94, passenger_id: 21, date: "2015-11-23", rating: 1, cost: 2857, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 511, driver_id: 4, passenger_id: 251, date: "2016-05-10", rating: 3, cost: 1417, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 512, driver_id: 83, passenger_id: 274, date: "2017-01-28", rating: 5, cost: 1626, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 513, driver_id: 60, passenger_id: 55, date: "2016-05-09", rating: 5, cost: 2992, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 514, driver_id: 89, passenger_id: 22, date: "2015-08-31", rating: 4, cost: 1866, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 515, driver_id: 57, passenger_id: 275, date: "2017-01-02", rating: 5, cost: 1152, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 516, driver_id: 47, passenger_id: 269, date: "2015-09-08", rating: 2, cost: 2893, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 517, driver_id: 98, passenger_id: 130, date: "2016-11-23", rating: 5, cost: 2345, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 518, driver_id: 22, passenger_id: 283, date: "2016-03-11", rating: 2, cost: 1132, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 519, driver_id: 7, passenger_id: 137, date: "2017-02-09", rating: 5, cost: 1569, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 520, driver_id: 3, passenger_id: 25, date: "2017-02-10", rating: 3, cost: 2868, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 521, driver_id: 36, passenger_id: 270, date: "2016-12-09", rating: 3, cost: 2059, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 522, driver_id: 41, passenger_id: 287, date: "2017-01-09", rating: 1, cost: 2000, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 523, driver_id: 93, passenger_id: 208, date: "2015-06-22", rating: 3, cost: 1535, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 524, driver_id: 44, passenger_id: 133, date: "2015-08-18", rating: 1, cost: 1931, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 525, driver_id: 33, passenger_id: 279, date: "2015-03-13", rating: 3, cost: 1267, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 526, driver_id: 63, passenger_id: 155, date: "2016-03-15", rating: 3, cost: 2049, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 527, driver_id: 74, passenger_id: 280, date: "2016-10-20", rating: 5, cost: 2534, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 528, driver_id: 38, passenger_id: 284, date: "2016-07-27", rating: 5, cost: 2804, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 529, driver_id: 35, passenger_id: 265, date: "2015-05-14", rating: 3, cost: 1565, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 530, driver_id: 1, passenger_id: 196, date: "2016-04-04", rating: 1, cost: 1726, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 531, driver_id: 99, passenger_id: 148, date: "2016-07-11", rating: 1, cost: 1149, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 532, driver_id: 52, passenger_id: 3, date: "2015-12-27", rating: 5, cost: 2027, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 533, driver_id: 2, passenger_id: 200, date: "2015-09-20", rating: 3, cost: 1776, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 534, driver_id: 13, passenger_id: 81, date: "2016-09-30", rating: 5, cost: 2979, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 535, driver_id: 62, passenger_id: 122, date: "2015-08-11", rating: 5, cost: 1688, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 536, driver_id: 55, passenger_id: 294, date: "2015-11-28", rating: 1, cost: 2916, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 537, driver_id: 56, passenger_id: 62, date: "2016-10-01", rating: 2, cost: 2136, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 538, driver_id: 93, passenger_id: 132, date: "2015-08-01", rating: 4, cost: 2978, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 539, driver_id: 70, passenger_id: 222, date: "2015-12-08", rating: 4, cost: 1006, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 540, driver_id: 22, passenger_id: 113, date: "2015-08-04", rating: 5, cost: 2849, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 541, driver_id: 98, passenger_id: 202, date: "2015-11-04", rating: 4, cost: 1111, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 542, driver_id: 69, passenger_id: 256, date: "2015-06-14", rating: 1, cost: 2397, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 543, driver_id: 48, passenger_id: 87, date: "2015-10-03", rating: 4, cost: 1257, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 544, driver_id: 36, passenger_id: 210, date: "2015-03-13", rating: 1, cost: 1093, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 545, driver_id: 65, passenger_id: 102, date: "2015-03-30", rating: 3, cost: 2637, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 546, driver_id: 80, passenger_id: 225, date: "2015-11-11", rating: 4, cost: 2953, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 547, driver_id: 21, passenger_id: 213, date: "2016-08-24", rating: 4, cost: 1558, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 548, driver_id: 88, passenger_id: 277, date: "2015-09-16", rating: 1, cost: 1399, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 549, driver_id: 8, passenger_id: 80, date: "2015-04-25", rating: 4, cost: 2492, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 550, driver_id: 92, passenger_id: 121, date: "2015-07-20", rating: 1, cost: 2756, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 551, driver_id: 12, passenger_id: 5, date: "2016-12-09", rating: 1, cost: 1318, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 552, driver_id: 30, passenger_id: 243, date: "2016-10-20", rating: 2, cost: 2941, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 553, driver_id: 1, passenger_id: 266, date: "2016-12-16", rating: 3, cost: 1553, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 554, driver_id: 95, passenger_id: 172, date: "2015-03-11", rating: 4, cost: 1449, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 555, driver_id: 52, passenger_id: 154, date: "2015-08-10", rating: 1, cost: 2743, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 556, driver_id: 59, passenger_id: 133, date: "2016-12-18", rating: 4, cost: 1829, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 557, driver_id: 26, passenger_id: 232, date: "2015-12-29", rating: 2, cost: 2885, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 558, driver_id: 22, passenger_id: 4, date: "2016-01-09", rating: 2, cost: 1414, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 559, driver_id: 2, passenger_id: 58, date: "2016-07-19", rating: 2, cost: 1683, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 560, driver_id: 78, passenger_id: 296, date: "2016-01-12", rating: 3, cost: 1414, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 561, driver_id: 64, passenger_id: 192, date: "2016-10-06", rating: 3, cost: 1761, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 562, driver_id: 80, passenger_id: 157, date: "2016-12-24", rating: 5, cost: 1414, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 563, driver_id: 91, passenger_id: 225, date: "2016-04-12", rating: 3, cost: 1393, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 564, driver_id: 34, passenger_id: 250, date: "2015-09-29", rating: 3, cost: 2513, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 565, driver_id: 25, passenger_id: 57, date: "2015-08-01", rating: 3, cost: 1839, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 566, driver_id: 74, passenger_id: 94, date: "2017-01-25", rating: 3, cost: 1798, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 567, driver_id: 12, passenger_id: 50, date: "2016-12-22", rating: 2, cost: 2442, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 568, driver_id: 15, passenger_id: 84, date: "2015-05-28", rating: 5, cost: 2084, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 569, driver_id: 91, passenger_id: 41, date: "2016-02-10", rating: 3, cost: 2584, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 570, driver_id: 16, passenger_id: 190, date: "2016-04-30", rating: 1, cost: 1721, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 571, driver_id: 54, passenger_id: 107, date: "2015-04-12", rating: 1, cost: 1895, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 572, driver_id: 15, passenger_id: 215, date: "2017-01-06", rating: 5, cost: 1859, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 573, driver_id: 58, passenger_id: 119, date: "2016-06-03", rating: 5, cost: 2108, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 574, driver_id: 69, passenger_id: 219, date: "2015-07-20", rating: 4, cost: 1351, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 575, driver_id: 61, passenger_id: 292, date: "2016-02-12", rating: 1, cost: 1946, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 576, driver_id: 59, passenger_id: 34, date: "2015-05-23", rating: 4, cost: 2014, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 577, driver_id: 95, passenger_id: 99, date: "2015-09-10", rating: 1, cost: 1768, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 578, driver_id: 73, passenger_id: 140, date: "2016-01-21", rating: 5, cost: 1487, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 579, driver_id: 57, passenger_id: 166, date: "2016-03-29", rating: 3, cost: 2866, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 580, driver_id: 45, passenger_id: 137, date: "2016-11-27", rating: 2, cost: 2304, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 581, driver_id: 91, passenger_id: 85, date: "2015-04-23", rating: 1, cost: 1294, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 582, driver_id: 28, passenger_id: 274, date: "2016-06-01", rating: 3, cost: 2500, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 583, driver_id: 47, passenger_id: 271, date: "2016-07-21", rating: 3, cost: 1585, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 584, driver_id: 54, passenger_id: 291, date: "2015-11-04", rating: 2, cost: 2498, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 585, driver_id: 82, passenger_id: 190, date: "2016-10-19", rating: 2, cost: 2263, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 586, driver_id: 57, passenger_id: 246, date: "2016-09-18", rating: 5, cost: 1252, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 587, driver_id: 34, passenger_id: 250, date: "2016-05-04", rating: 1, cost: 1892, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 588, driver_id: 96, passenger_id: 195, date: "2017-02-20", rating: 2, cost: 1576, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 589, driver_id: 46, passenger_id: 212, date: "2016-04-19", rating: 2, cost: 1851, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 590, driver_id: 76, passenger_id: 197, date: "2016-04-29", rating: 3, cost: 2961, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 591, driver_id: 96, passenger_id: 266, date: "2015-08-24", rating: 5, cost: 1608, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 592, driver_id: 34, passenger_id: 196, date: "2015-12-16", rating: 3, cost: 2596, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 593, driver_id: 3, passenger_id: 158, date: "2015-10-08", rating: 5, cost: 2059, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 594, driver_id: 96, passenger_id: 144, date: "2015-05-05", rating: 3, cost: 2359, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 595, driver_id: 26, passenger_id: 277, date: "2016-10-04", rating: 3, cost: 1600, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 596, driver_id: 63, passenger_id: 81, date: "2017-02-19", rating: 4, cost: 1499, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 597, driver_id: 36, passenger_id: 178, date: "2015-12-17", rating: 1, cost: 2166, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 598, driver_id: 18, passenger_id: 7, date: "2015-09-16", rating: 1, cost: 1826, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 599, driver_id: 61, passenger_id: 225, date: "2016-08-08", rating: 2, cost: 2239, created_at: nil, updated_at: nil>
+Failed to save trip: #<Trip id: 600, driver_id: 61, passenger_id: 168, date: "2016-04-25", rating: 3, cost: 2073, created_at: nil, updated_at: nil>
+Added 0 trip records
+596 trips failed to save
+Manually resetting PK sequence on each table
+done

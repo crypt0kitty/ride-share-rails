@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>RideShareRails</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="header">
+  <h2> Welcome to the Rideshare App!</h2>
+</div>
+<div>
+  <div class="navbar">
+    <%= link_to "Home", homepages_path %>
+    <%= link_to "Passengers", passengers_path%>
+     <%= link_to "Drivers", drivers_path%>
+  </div>
+  <header>
+    <h2>
+      Select more options below:
+    </h2>
+  </header>
+  <main>
+    <ul>
+      <li>
+        <%= link_to "View Passengers", passengers_path%>
+      </li>
+      <li>
+        <%= link_to "Create New Passenger Account", new_passenger_path %>
+      </li>
+      <li> <%= link_to "View Drivers", drivers_path%>
+      </li>
+      <li>
+        <%= link_to "Create New Driver Account", new_driver_path%>
+      </li>
+    </ul>
+  </main>
+</div>
+  <footer>
+  Sandy and Rachael (c) 2020
+</footer>
+</body>
+</html>

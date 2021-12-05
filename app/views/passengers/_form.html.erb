@@ -1,0 +1,18 @@
+<body class = "passenger-color">
+<%= form_with model: @passenger do |f| %>
+  <h3>Please provide the following information for your passenger.</h3>
+  <% if @passenger.errors.any? %>
+    <ul>
+    <% @passenger.errors.messages.each do |column, message| %>
+      <li>
+         <p><%= column %> <%= message %></p>  <!--   ' %= ' because columns & messages need to be outputted-->
+      </li>l
+      <% end %>
+    </ul>
+    <% end %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :phone_num %>
+  <%= f.text_field :phone_num %>
+  <%= f.submit %>
+<% end %>

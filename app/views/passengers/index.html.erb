@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>RideShareRails</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="header">
+  <h1> All Passengers</h1>
+</div>
+<div class="navbar">
+  <%= link_to "Home", homepages_path %>
+  <%= link_to "Passengers", passengers_path%>
+  <%= link_to "Drivers", drivers_path%>
+</div>
+<br>
+<p><%= link_to "Create New Passenger Account", new_passenger_path%></p>
+<ul id = "passengers">
+  <% @passengers.each do |passenger| %>
+    <li>
+      <%= link_to passenger.name, passenger_path(passenger) %>
+      <%= link_to 'Add new trip |', passenger_trips_path(passenger), method: :post %>
+      <%= link_to 'Edit |', edit_passenger_path(passenger[:id]) %>
+      <%= link_to 'Delete', destroy_passenger_path(passenger), method: :delete, data: {confirm: 'Are you sure?' }  %>
+    </li>
+  <% end %>
+</ul>
+<footer>
+  Sand and Rachael (c) 2020
+</footer>
+</body>
+</html>

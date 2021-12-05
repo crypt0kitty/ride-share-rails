@@ -1,0 +1,109 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+
+/* Custom bootstrap variables must be set or imported *before* bootstrap. */
+@import "bootstrap";
+@import "**/*";
+
+      /* Header/logo Title */
+      .header {
+          padding: 100px;
+          text-align: center;
+          background: rebeccapurple;
+          color: white;
+      }
+      /* Increase the font size of the heading */
+      .header h1 {
+          font-size: 40px;
+      }
+      /* Style the top navigation bar */
+      .navbar {
+          overflow: hidden;
+          background-color: #333;
+      }
+      /* Style the navigation bar links */
+      .navbar a {
+          float: left;
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 20px;
+          text-decoration: none;
+      }
+
+      /*Change color on hover*/
+      .navbar a:hover {
+          background-color: #ddd;
+          text-decoration: none;
+          color: black;
+      }
+      /* Footer */
+      footer {
+          padding: 100px;
+          text-align: center;
+          background: #ddd;
+      }
+
+      /*table styling*/
+      thead:nth-child(odd){background-color: black;}
+      tr:nth-child(even) {background-color: #c8a2c8;}
+      table, th, td {
+          border: 3px black;
+          padding: 40px;
+          margin: 40px;
+      }
+
+      .table-center {
+         text-align: center;
+      }
+
+      thead {
+          color: white;
+          font-size: 18px;
+      }
+
+      table {
+       margin-left: auto;
+       margin-right: auto;
+       table-layout: fixed;
+       border-collapse: collapse;
+       width: 80%;
+      }
+
+      td {
+      border: 1px solid #000;
+      font-size: 14px;
+      font-weight: bold;
+      width: 30px;
+      }
+
+      td+td {
+      width: auto;
+      }
+
+      @media screen and (max-width: 700px) {
+          .table-responsive {
+              width: 130%;
+              margin-bottom: 15px;
+              overflow-y: hidden;
+              border: 1px solid #ddd;
+          }
+       }
+
+      a {
+            color: rebeccapurple;
+      }
+
+
+

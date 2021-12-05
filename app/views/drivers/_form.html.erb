@@ -1,0 +1,19 @@
+<body class = "passenger-color">
+<%= form_with model: @driver, class: 'edit-driver' do |f| %>
+  <h3>Please provide the following information for your driver.</h3>
+  <% if @driver.errors.any? %>
+<ul>
+  <% @driver.errors.messages.each do |column, message| %>
+    <li>
+     <p> <%= column %> <%= message %></p>
+    </li>
+  <% end %>
+</ul>
+  <% end %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    <%= f.label :vin %>
+    <%= f.text_field :vin %>
+  <%= f.submit%>
+<% end %>
+
