@@ -13,97 +13,112 @@
  */
 
 /* Custom bootstrap variables must be set or imported *before* bootstrap. */
-@import "bootstrap";
-@import "**/*";
 
-      /* Header/logo Title */
-      .header {
-          padding: 100px;
-          text-align: center;
-          background: rebeccapurple;
-          color: white;
-      }
-      /* Increase the font size of the heading */
-      .header h1 {
-          font-size: 40px;
-      }
-      /* Style the top navigation bar */
-      .navbar {
-          overflow: hidden;
-          background-color: #333;
-      }
-      /* Style the navigation bar links */
-      .navbar a {
-          float: left;
-          display: block;
-          color: white;
-          text-align: center;
-          padding: 14px 20px;
-          text-decoration: none;
-      }
+/* Header/logo Title */
 
-      /*Change color on hover*/
-      .navbar a:hover {
-          background-color: #ddd;
-          text-decoration: none;
-          color: black;
-      }
-      /* Footer */
-      footer {
-          padding: 100px;
-          text-align: center;
-          background: #ddd;
-      }
+body { 
+    margin:0;
+} 
 
-      /*table styling*/
-      thead:nth-child(odd){background-color: black;}
-      tr:nth-child(even) {background-color: #c8a2c8;}
-      table, th, td {
-          border: 3px black;
-          padding: 40px;
-          margin: 40px;
-      }
+.header {
+  padding: 60px;
+  text-align: center;
+  background: rebeccapurple;
+  color: white;
+}
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+  padding: 30px;
+}
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
 
-      .table-center {
-         text-align: center;
-      }
+h2 {
+    padding: 25px;
+}
 
-      thead {
-          color: white;
-          font-size: 18px;
-      }
+/*Change color on hover*/
+.navbar a:hover {
+  background-color: #ddd;
+  text-decoration: none;
+  color: black;
+}
+/* Footer */
+.footer {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  height: 50px;
+  background-color: #ccc;
+  text-align: center;
+}
 
-      table {
-       margin-left: auto;
-       margin-right: auto;
-       table-layout: fixed;
-       border-collapse: collapse;
-       width: 80%;
-      }
+/*table styling*/
+thead:nth-child(odd) {
+  background-color: black;
+}
+tr:nth-child(even) {
+  background-color: #c8a2c8;
+}
+table,
+th,
+td {
+  border: 3px black;
+  padding: 40px;
+  margin: 40px;
+}
 
-      td {
-      border: 1px solid #000;
-      font-size: 14px;
-      font-weight: bold;
-      width: 30px;
-      }
+.table-center {
+  text-align: center;
+}
 
-      td+td {
-      width: auto;
-      }
+thead {
+  color: white;
+  font-size: 18px;
+}
 
-      @media screen and (max-width: 700px) {
-          .table-responsive {
-              width: 130%;
-              margin-bottom: 15px;
-              overflow-y: hidden;
-              border: 1px solid #ddd;
-          }
-       }
+table {
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 80%;
+}
 
-      a {
-            color: rebeccapurple;
-      }
+td {
+  border: 1px solid #000;
+  font-size: 14px;
+  font-weight: bold;
+  width: 30px;
+}
 
+td + td {
+  width: auto;
+}
 
+@media screen and (max-width: 700px) {
+  .table-responsive {
+    width: 130%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    border: 1px solid #ddd;
+  }
+}
 
+a {
+  color: rebeccapurple;
+}
