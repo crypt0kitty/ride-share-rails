@@ -183,7 +183,5 @@ describe DriversController do
       # Assert
       must_respond_with 404
     end
-
-    end
   end
 end
