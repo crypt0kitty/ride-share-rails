@@ -14,21 +14,20 @@
   <%= link_to "Passengers", passengers_path%>
   <%= link_to "Drivers", drivers_path%>
 </div>
-
+<div class ="show-text">
   <h3>Vin: <%= @driver[:vin] %></h3>
   <h3> Driver Id: <%=@driver[:id] %></h3>
-
 <h4>Availability: <%= driver_availability_string(@driver) %></h4>
 <h4>More options:</h4>
   <%= link_to driver_online_string(@driver), {action: :set_available, id: @driver.id}, method: :patch %>
   <%= link_to "Delete Driver?", destroy_driver_path, method: :delete, data: {confirm: "Are you sure?"} %>
   <%= link_to "Edit Driver", edit_driver_path %>
-
 <h4> <%= @driver[:name] %>'s average rating is
 <%= @driver.average_rating %>. </h4>
 <h4>
     Their trips totaled to $<%= @driver.total_money%> and they made $<%= @driver.after_fee %>.
 </h4>
+</div>
   <table>
     <thead>
     <tr>
@@ -47,9 +46,9 @@
     <% end %>
     </tbody>
   </table>
-<footer>
-© Sandy and Rachael
-</footer>
+  <footer class="footer">
+  <p>© Sandy and Rachel</p>
+  </footer>
 </body>
 </html>
 
