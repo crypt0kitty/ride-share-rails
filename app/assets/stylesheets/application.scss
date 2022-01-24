@@ -70,6 +70,10 @@ h2 {
   padding: 25px;
 }
 
+.home-title {
+  padding: 10px;
+}
+
 /*Change color on hover*/
 .navbar a:hover {
   background-color: #ddd;
@@ -128,12 +132,12 @@ table {
   margin-right: auto;
   table-layout: fixed;
   border-collapse: collapse;
-  width: 90%;
+  width: 95%;
 }
 
 td {
   border: 1px solid #000;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   padding-left: 20px;
 }
@@ -180,3 +184,17 @@ a:hover, a:visited, a:link, a:active {
   padding: 10px;
   font-weight: bold;
 }
+
+.a-primary {
+  color: rgb(3, 87, 3);
+}
+
+.b-primary {
+  color: rgb(243, 141, 9);
+}
+
+.c-primary {
+  color: rgb(211, 4, 4);
+}
+
+

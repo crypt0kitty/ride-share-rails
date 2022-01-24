@@ -22,8 +22,7 @@
   <%= link_to driver_online_string(@driver), {action: :set_available, id: @driver.id}, method: :patch %>
   <%= link_to "Delete Driver?", destroy_driver_path, method: :delete, data: {confirm: "Are you sure?"} %>
   <%= link_to "Edit Driver", edit_driver_path %>
-<h4> <%= @driver[:name] %>'s average rating is
-<%= @driver.average_rating %> </h4>
+<h4> <%= @driver[:name] %>'s average rating is <%= @driver.average_rating %> </h4>
 <h4> Their trips totaled to $<%= @driver.total_money%> and they made $<%= @driver.after_fee %></h4>
 </div>
   <table> 
@@ -44,8 +43,7 @@
     <% end %>
     </tbody>
   </table>
-  <br>
-  <footer class="footer-2">
+  <footer class="footer">
   <p>© Sandy and Rachel</p>
   </footer>
 </body>

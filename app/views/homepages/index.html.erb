@@ -15,22 +15,14 @@
     <%= link_to "Passengers", passengers_path%>
      <%= link_to "Drivers", drivers_path%>
   </div>
-  <header class="edit-trip-text">
-    <p class="passenger-heading">
-      Select more options below:
-    </p>
-  </header>
+  <br><br>
     <ul>
       <li>
-        <%= link_to "View Passengers", passengers_path%>
+      <header><h3>Passenger info</h3></header>
+        <%= link_to "View Passengers", passengers_path%>:<%= link_to " Create New Passenger Account", new_passenger_path %>
       </li>
-      <li>
-        <%= link_to "Create New Passenger Account", new_passenger_path %>
-      </li>
-      <li> <%= link_to "View Drivers", drivers_path%>
-      </li>
-      <li>
-        <%= link_to "Create New Driver Account", new_driver_path%>
+      <header><h3>Driver info</h3></header>
+      <li> <%= link_to "View Drivers", drivers_path%>:<%= link_to "  Create New Driver Account", new_driver_path%>
       </li>
     </ul>
   <footer class="footer">
