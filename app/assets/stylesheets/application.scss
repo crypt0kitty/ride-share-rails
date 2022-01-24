@@ -46,6 +46,26 @@ body {
   text-decoration: none;
 }
 
+#passengers {
+  padding: 10px;
+}
+
+#drivers {
+  padding: 10px;
+}
+
+#passengers-name {
+  padding: 5px;
+}
+
+#drivers-name {
+  padding: 5px;
+}
+
+ul {
+  list-style: none;
+}
+
 h2 {
   padding: 25px;
 }
@@ -76,7 +96,7 @@ h2 {
   height: 50px;
   background-color: #ccc;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 30px;
 }
 
 /*table styling*/
@@ -99,22 +119,23 @@ table td {
 thead {
   color: white;
   font-size: 18px;
+  padding: 10px;
 }
 
 table {
-  margin-top: 70px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   table-layout: fixed;
   border-collapse: collapse;
-  width: 80%;
+  width: 90%;
 }
 
 td {
   border: 1px solid #000;
   font-size: 14px;
   font-weight: bold;
-  width: 30px;
+  padding-left: 20px;
 }
 
 td + td {
@@ -132,6 +153,24 @@ a {
   color: rebeccapurple;
 }
 
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+.passenger-table {
+  padding: 20px;
+}
+
 .show-text {
-    padding: 15px;
+    padding: 10px;
+}
+
+.driver-heading {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.passenger-heading {
+  padding: 10px;
+  font-weight: bold;
 }

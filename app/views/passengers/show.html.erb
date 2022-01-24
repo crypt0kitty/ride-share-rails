@@ -14,11 +14,10 @@
   <%= link_to "Home", homepages_path %>
   <%= link_to "Passengers", passengers_path%>
   <%= link_to "Drivers", drivers_path%>
-</div>
-<div class="table-responsive">
-<table >
+  </div>
+<table>
   <thead>
- <tr>
+  <tr>
     <th>Trip ID</th>
     <th>Driver</th>
     <th>Passenger</th>
@@ -26,12 +25,10 @@
     <th>Trip Rating</th>
   </tr>
   </thead>
-  <tbody >
+  <tbody>
   <% @passenger.trips.each do |trip|%>
   <tr>
-    <td>
-      <%= trip.id %>,<%= link_to " Trip Details", trip_path(trip.id) %>
-    </td>
+    <td><%= trip.id %>,<%= link_to " Trip Details", trip_path(trip.id) %></td>
     <td><%= trip.driver.name %></td>
     <td><%= trip.passenger.name %></td>
     <td><%= number_to_currency(Trip.format_money(trip.cost)) %></td>
@@ -49,8 +46,8 @@
     <li>Your phone number is: <%= @passenger.phone_num %></li>
   </h4>
 </ul>
-<%= link_to 'Add new trip', passenger_trips_path(@passenger), method: :post %>
-<footer class="footer">
+<p><%= link_to 'Add new trip', passenger_trips_path(@passenger), method: :post %></p>
+<footer class="footer-2">
 <p>© Sandy and Rachel</p>
 </footer>
 </body>

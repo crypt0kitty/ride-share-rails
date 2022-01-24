@@ -14,14 +14,13 @@
   <%= link_to "Passengers", passengers_path%>
   <%= link_to "Drivers", drivers_path%>
 </div>
-<div>
+<div class="driver-heading">
   <br>
   <%= link_to 'Add New Driver', new_driver_path %>
 </div>
-<br>
-<ul id = "drivers">
+<ul id = "drivers-name">
   <% @drivers.each do |driver|  %>
-    <li>
+    <li id = "drivers-name">
       <%= link_to driver.name, driver_path(driver) %> |
       <%= link_to 'Edit', edit_driver_path(driver[:id]) %> |
       <%= link_to "Delete", destroy_driver_path(driver[:id]), method: :delete, data: {confirm: "Are you sure?"} %>
