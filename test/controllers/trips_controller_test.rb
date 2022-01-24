@@ -30,7 +30,7 @@ describe TripsController do
                           rating: 5,
                           cost: 540}
       }
-      valid_passenger = Passenger.new(name: Sean Gomez, phone_num: 123-13-234)
+      # valid_passenger = Passenger.new(name: Sean Gomez, phone_num: 123-13-234)
 
       expect { post passenger_trips_path(valid_passenger), params: trip_hash}.must_differ Trip.count, 1
       valid_trip = Trip.find_by(date: trip_hash[:trip][:date])
