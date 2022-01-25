@@ -17,15 +17,17 @@
 <main class="main-container">
 <h3 class = "driver-title"><%= link_to "Create New Driver Account", new_driver_path %></h3>
 </div>
+<div>
 <ul id = "driver-information-list">
   <% @drivers.each do |driver| %>
     <li id = "driver-info-padding">
-      <%= link_to driver.name, driver_path(driver) %> |
-      <%= link_to 'Edit', edit_driver_path(driver[:id]),  class: "b-primary" %> |
+      <%= link_to driver.name, driver_path(driver)%>|
+      <%= link_to 'Edit', edit_driver_path(driver[:id]), class: "b-primary"%> |
       <%= link_to "Delete", destroy_driver_path(driver[:id]), class: "c-primary", method: :delete, data: {confirm: "Are you sure?"} %>
     </li>
   <% end %>
 </ul>
+</div>
 </main>
 <footer class="footer">
 <p id = "footer-text">© Sandy and Rachel</p>
