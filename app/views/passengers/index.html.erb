@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+<main class="main-container">
 <div class="header">
   <h1>All Passengers</h1>
 </div>
@@ -14,11 +15,10 @@
   <%= link_to "Passengers", passengers_path%>
   <%= link_to "Drivers", drivers_path%>
 </div>
-<br>
-<p class="passenger-heading"><%= link_to "Create New Passenger Account", new_passenger_path%></p>
-<ul id = "passengers">
+<h3 class = "passenger-title"><%= link_to "Create New Passenger Account", new_passenger_path%></h3>
+<ul id = "passenger-information-list">
   <% @passengers.each do |passenger| %>
-    <li id = "passengers-name">
+    <li id="passenger-info-padding">
       <%= link_to passenger.name, passenger_path(passenger) %>
       <%=link_to 'Add new trip |', passenger_trips_path(passenger), class: "a-primary", method: :post%>
       <%= link_to 'Edit |', edit_passenger_path(passenger[:id]), class: "b-primary" %>
@@ -26,8 +26,9 @@
     </li>
   <% end %>
 </ul>
-<footer class="footer-2">
-<p>© Sandy and Rachel</p>
+</main>
+<footer class="footer">
+<p id = "footer-text">© Sandy and Rachel</p>
 </footer>
 </body>
 </html>

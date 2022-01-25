@@ -15,10 +15,29 @@
 /* Custom bootstrap variables must be set or imported *before* bootstrap. */
 
 /* Header/logo Title */
+* {
+  box-sizing: border-box;
+ }
 
-body {
+ *:before,
+ *:after {
+  box-sizing: border-box;
+ }
+
+html body {
+  margin-bottom: 100px;
+  position: relative;
   margin: 0;
+  height: 100%;
 }
+
+.main-container {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px; /* height of your footer */
+ }
 
 .header {
   padding: 10px;
@@ -35,9 +54,11 @@ body {
 .navbar {
   overflow: hidden;
   background-color: #333;
+  text-decoration: none;
+  color: white;
 }
 /* Style the navigation bar links */
-.navbar a {
+.navbar a  {
   float: left;
   display: block;
   color: white;
@@ -46,32 +67,42 @@ body {
   text-decoration: none;
 }
 
-#passengers {
-  padding: 10px;
+.passenger-title a, .driver-title a {
+  color: blue;
 }
 
-#drivers {
-  padding: 10px;
+.homepage-title, .passenger-title, .driver-title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  padding: 3px;
+  padding-top: 3%;
 }
 
-#passengers-name {
-  padding: 5px;
+.driver-details {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  padding-top: 3%;
 }
 
-#drivers-name {
-  padding: 5px;
+#passenger-information-list, #driver-information-list {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+#passenger-info-padding, #driver-info-padding {
+  padding: 3px;
 }
 
 ul {
-  list-style: none;
+  list-style-type: none;
+  padding: 0;
 }
 
 h2 {
   padding: 25px;
-}
-
-.home-title {
-  padding: 10px;
 }
 
 /*Change color on hover*/
@@ -79,28 +110,6 @@ h2 {
   background-color: #ddd;
   text-decoration: none;
   color: black;
-}
-/* Footer */
-.footer {
-  width: 100%;
-  bottom: 0;
-  position: fixed;
-  left: 0;
-  height: 50px;
-  background-color: #ccc;
-  text-align: center;
-  padding-top: 5px;
-}
-
-.footer-2 {
-  width: 100%;
-  bottom: 0;
-  position: relative;
-  left: 0;
-  height: 50px;
-  background-color: #ccc;
-  text-align: center;
-  padding-top: 30px;
 }
 
 /*table styling*/
@@ -127,7 +136,7 @@ thead {
 }
 
 table {
-  margin-top: 50px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   table-layout: fixed;
@@ -138,7 +147,7 @@ table {
 td {
   border: 1px solid #000;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 600;
   padding-left: 20px;
 }
 
@@ -146,43 +155,25 @@ td + td {
   width: auto;
 }
 
-.table-responsive {
-  width: 100%;
-  margin-bottom: 15px;
-  overflow-y: hidden;
-  padding-top: 10px;
-}
-
 a {
   color: rebeccapurple;
+  text-decoration: none;
 }
 
-a:hover, a:visited, a:link, a:active {
-    text-decoration: none;
+a:hover a:link, a:visited, :active {
+  text-decoration: none;
 }
 
 .passenger-table {
   padding: 20px;
 }
 
-.show-text {
-    padding: 10px;
-}
-
 .edit-trip-text {
-  padding-top: 20px;
-  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  padding-top: 15px;
   color: rebeccapurple;
-}
-
-.driver-heading {
-  padding: 10px;
-  font-weight: bold;
-}
-
-.passenger-heading {
-  padding: 10px;
-  font-weight: bold;
 }
 
 .a-primary {
@@ -196,5 +187,22 @@ a:hover, a:visited, a:link, a:active {
 .c-primary {
   color: rgb(211, 4, 4);
 }
+
+footer {
+  position: absolute;
+  background-color: #ccc;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+ }
+
+ #footer-text {
+  color: rebeccapurple;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+	margin: 5px auto 10px auto;
+ }
+
 
 

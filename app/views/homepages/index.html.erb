@@ -3,8 +3,7 @@
 <head>
   <title>RideShareRails</title>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-</head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
 <div class="header">
   <h1> Welcome to the Rideshare App!</h1>
@@ -15,18 +14,15 @@
     <%= link_to "Passengers", passengers_path%>
      <%= link_to "Drivers", drivers_path%>
   </div>
-  <br><br>
-    <ul>
-      <li>
+  <main class="main-container homepage-title">
       <header><h3>Passenger info</h3></header>
         <%= link_to "View Passengers", passengers_path%>:<%= link_to " Create New Passenger Account", new_passenger_path %>
-      </li>
       <header><h3>Driver info</h3></header>
-      <li> <%= link_to "View Drivers", drivers_path%>:<%= link_to "  Create New Driver Account", new_driver_path%>
-      </li>
-    </ul>
+      <%= link_to "View Drivers", drivers_path%>:<%= link_to "  Create New Driver Account", new_driver_path%>
+      </div>
+    </main>
   <footer class="footer">
-  <p>© Sandy and Rachel</p>
+  <p id = "footer-text">© Sandy and Rachel</p>
   </footer>
 </body>
 </html>

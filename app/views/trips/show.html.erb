@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
+  <title>RideShareRails</title>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 <body>
 <div class="header">
@@ -14,6 +14,7 @@
   <%= link_to "Passengers", passengers_path%>
   <%= link_to "Drivers", drivers_path%>
 </div>
+<main class="main-container">
 <table>
   <thead>
   <tr>
@@ -32,9 +33,10 @@
   </tr>
   </tbody>
 </table>
-<div class="edit-trip-text"> <%= link_to 'Edit |', edit_trip_path(@trip[:id]) %><%= link_to 'Delete', destroy_trip_path(@trip), method: :delete, data: {confirm: 'Are you sure?' } %>
+<div class="edit-trip-text"> <%= link_to 'Edit | ', edit_trip_path(@trip[:id]) %><%= link_to 'Delete', destroy_trip_path(@trip), method: :delete, data: {confirm: 'Are you sure?' } %>
+</main>
 <footer class="footer">
-<p>© Sandy and Rachel</p>
+<p id = "footer-text">© Sandy and Rachel</p>
 </footer>
 </body>
 </html>
