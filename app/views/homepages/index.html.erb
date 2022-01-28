@@ -9,18 +9,17 @@
   <h1> Welcome to the Rideshare App!</h1>
 </div>
 <div>
-  <div class="navbar">
+  <div class="nav">
     <%= link_to "Home", homepages_path %>
     <%= link_to "Passengers", passengers_path%>
      <%= link_to "Drivers", drivers_path%>
   </div>
   <main class="main-container homepage-title">
-      <header><h3>Passenger info</h3></header>
-        <%= link_to "View Passengers", passengers_path%>:<%= link_to " Create New Passenger Account", new_passenger_path %>
-      <header><h3>Driver info</h3></header>
-      <%= link_to "View Drivers", drivers_path%>:<%= link_to "  Create New Driver Account", new_driver_path%>
-      </div>
-    </main>
+      <h4>Passenger info</h4>
+        <%= link_to "View Passengers", passengers_path%> or <%= link_to "Create New Passenger Account", new_passenger_path, class: "title-blue" %>
+        <h4 class="homepage-title-driver">Driver info</h4>
+      <%= link_to "View Drivers", drivers_path%> or <%= link_to "Create New Driver Account", new_driver_path, class: "title-blue"%>
+  </main>
   <footer class="footer">
   <p id = "footer-text">© Sandy and Rachel</p>
   </footer>

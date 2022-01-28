@@ -7,9 +7,7 @@ class Driver < ApplicationRecord
 
   def average_rating
     ratings = trips.map {|trip| trip.rating}
-    if ratings = 0
-      return "NIL"
-    end
+   
     total_ratings = 0
     ratings.each do |rating|
       total_ratings += rating

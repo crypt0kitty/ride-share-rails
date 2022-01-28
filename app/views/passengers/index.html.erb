@@ -10,12 +10,14 @@
 <div class="header">
   <h1>All Passengers</h1>
 </div>
-<div class="navbar">
+<div class="nav">
   <%= link_to "Home", homepages_path %>
   <%= link_to "Passengers", passengers_path%>
   <%= link_to "Drivers", drivers_path%>
 </div>
-<h3 class = "passenger-title"><%= link_to "Create New Passenger Account", new_passenger_path%></h3>
+<h4 class = "passenger-title"><%= link_to "Create New Passenger Account", new_passenger_path%></h4>
+<div class = "driver-div">**Select a passenger name to see trip details**</div>
+
 <ul id = "passenger-information-list">
   <% @passengers.each do |passenger| %>
     <li id="passenger-info-padding">
@@ -23,12 +25,13 @@
       <%=link_to 'Add new trip |', passenger_trips_path(passenger), class: "a-primary", method: :post%>
       <%= link_to 'Edit |', edit_passenger_path(passenger[:id]), class: "b-primary" %>
       <%= link_to 'Delete', destroy_passenger_path(passenger),  class: "c-primary", method: :delete, data: {confirm: 'Are you sure?' }  %>
-    </li>
+      </li>
   <% end %>
 </ul>
+<div class="pagy-center"><%== pagy_bootstrap_nav(@pagy) %></div>
 </main>
 <footer class="footer">
 <p id = "footer-text">© Sandy and Rachel</p>
 </footer>
 </body>
-</html>
+</html>   

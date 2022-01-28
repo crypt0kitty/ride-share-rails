@@ -9,7 +9,7 @@
 <div class="header">
   <h1>Trip Details</h1>
 </div>
-<div class="navbar">
+<div class="nav">
   <%= link_to "Home", homepages_path %>
   <%= link_to "Passengers", passengers_path%>
   <%= link_to "Drivers", drivers_path%>
@@ -33,7 +33,7 @@
   </tr>
   </tbody>
 </table>
-<div class="edit-trip-text"> <%= link_to 'Edit | ', edit_trip_path(@trip[:id]) %><%= link_to 'Delete', destroy_trip_path(@trip), method: :delete, data: {confirm: 'Are you sure?' } %>
+<div class="edit-trip-text"> <%= link_to 'Edit | ', edit_trip_path(@trip[:id]), class: "b-primary"%><%= link_to 'Delete', destroy_trip_path(@trip), class: "c-primary", method: :delete, data: {confirm: 'Are you sure?' } %>
 </main>
 <footer class="footer">
 <p id = "footer-text">© Sandy and Rachel</p>

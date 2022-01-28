@@ -13,8 +13,9 @@
  */
 
 /* Custom bootstrap variables must be set or imported *before* bootstrap. */
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
 
-/* Header/logo Title */
 * {
   box-sizing: border-box;
  }
@@ -26,6 +27,7 @@
 
 html body {
   margin-bottom: 100px;
+  font-family: 'Signika Negative', sans-serif;
   position: relative;
   margin: 0;
   height: 100%;
@@ -40,7 +42,7 @@ html body {
  }
 
 .header {
-  padding: 10px;
+  padding: 40px;
   text-align: center;
   background: rebeccapurple;
   color: white;
@@ -48,17 +50,17 @@ html body {
 /* Increase the font size of the heading */
 .header h1 {
   font-size: 40px;
-  padding: 10px;
+  padding: 50px;
 }
 /* Style the top navigation bar */
-.navbar {
+.nav {
   overflow: hidden;
   background-color: #333;
   text-decoration: none;
   color: white;
 }
 /* Style the navigation bar links */
-.navbar a  {
+.nav a  {
   float: left;
   display: block;
   color: white;
@@ -69,12 +71,23 @@ html body {
 
 .passenger-title a, .driver-title a {
   color: blue;
+  padding: 3px;
 }
 
 .homepage-title, .passenger-title, .driver-title {
   margin-left: auto;
   margin-right: auto;
   width: 95%;
+  padding-top: 6%;
+}
+
+.driver-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+.homepage-title-driver {
   padding-top: 3%;
 }
 
@@ -88,11 +101,11 @@ html body {
   margin-left: auto;
   margin-right: auto;
   width: 95%;
-  padding-top: 3%;
+  padding-top: 5%;
 }
 
  #passenger-information-list, #driver-information-list {
-  padding-top: 3%;
+  padding-top: 5%;
   width: 95%;
   margin-left: auto;
   margin-right: auto;
@@ -102,12 +115,12 @@ html body {
 }
 
 #passenger-info-padding, #driver-info-padding {
-  flex: 1 1 30%; /*grow | shrink | basis */
-  padding: 7px;
+  flex: 1 1 40%; /*grow | shrink | basis */
+  padding: 3px;
 }
 
 #passenger-trip-info {
-  padding-top: 3%;
+  padding-top: 5%;
   width: 95%;
   margin-left: auto;
   margin-right: auto;
@@ -123,7 +136,7 @@ h2 {
 }
 
 /*Change color on hover*/
-.navbar a:hover {
+.nav a:hover {
   background-color: #ddd;
   text-decoration: none;
   color: black;
@@ -205,6 +218,10 @@ a:hover a:link, a:visited, :active {
   color: rgb(211, 4, 4);
 }
 
+.title-blue {
+  color: blue
+}
+
 footer {
   position: absolute;
   background-color: #ccc;
@@ -221,5 +238,9 @@ footer {
 	margin: 5px auto 10px auto;
  }
 
-
+.pagy-center {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
 
