@@ -1,21 +1,59 @@
-<body class = "passenger-color">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>RideShareRails</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="header">
+  <h1>Edit Trip Form</h1>
+</div>
+<div class="nav">
+  <%= link_to "Home", homepages_path %>
+  <%= link_to "Passengers", passengers_path%>
+  <%= link_to "Drivers", drivers_path%>
+</div>
+<main class="main-container">
+
 <%= form_with model: @trip, class: 'edit-trip' do |f| %>
-  <h3>Please provide the following information to edit your trip.</h3>
+  <h4 class="form-title">Please provide the following information to edit your trip</h4>
 
+  <div class="form-group mx-sm-3 mb-2">
   <%= f.label :driver_id %>
-  <%= f.text_field :driver_id %>
+  <%= f.text_field :driver_id, class: "form-control" %>
+  </div>
 
+  <div class="form-group mx-sm-3 mb-2">
   <%= f.label :passenger_id %>
-  <%= f.text_field :passenger_id %>
+  <%= f.text_field :passenger_id, class: "form-control" %>
+  </div>
 
+  <div class="form-group mx-sm-3 mb-2">
   <%= f.label :date %>
-  <%= f.text_field :date %>
+  <%= f.text_field :date, class: "form-control" %>
+  </div>
 
+
+  <div class="form-group mx-sm-3 mb-2">
   <%= f.label :rating %>
-  <%= f.text_field :rating %>
+  <%= f.text_field :rating, class: "form-control" %>
+  </div>
 
+
+  <div class="form-group mx-sm-3 mb-2">
   <%= f.label :cost %>
-  <%= f.text_field :cost %>
+  <%= f.text_field :cost, class: "form-control" %>
+  </div>
+ <br>
 
-  <%= f.submit "Edit Trip", class: "trip-button" %>
+  <%= f.submit "Edit Trip", class: "btn btn-primary mx-sm-3  mb-2" %>
 <% end %>
+</form>
+<main>
+<footer class="footer">
+<p id = "footer-text">© Sandy and Rachel</p>
+</footer>
+</body>
+</html>
+

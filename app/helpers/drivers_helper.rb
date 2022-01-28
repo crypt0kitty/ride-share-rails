@@ -5,6 +5,6 @@ module DriversHelper
   end
   
   def driver_availability_string(driver)
-    driver.available? ? "yes": "no"
+    driver.available? ? "YES": "NO"
   end
 end

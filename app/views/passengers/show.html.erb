@@ -35,7 +35,7 @@
   <tbody>
   <% @passenger.trips.each do |trip|%>
   <tr>
-    <td><%= trip.id %>,<%= link_to " Trip Details", trip_path(trip.id) %></td>
+    <td><%= trip.id %>, <%= link_to "Trip Details", trip_path(trip.id) %></td>
     <td><%= trip.driver.name %></td>
     <td><%= trip.passenger.name %></td>
     <td><%= number_to_currency(Trip.format_money(trip.cost)) %></td>
