@@ -171,7 +171,7 @@ table {
   margin-right: auto;
   table-layout: fixed;
   border-collapse: collapse;
-  width: 95%;
+  width: 80%;
 }
 
 td {
@@ -179,10 +179,6 @@ td {
   font-size: 14px;
   font-weight: 600;
   padding-left: 20px;
-}
-
-td + td {
-  width: auto;
 }
 
 a {
@@ -199,9 +195,6 @@ a:hover a:link, a:visited, :active {
 }
 
 .edit-trip-text {
-  margin-left: auto;
-  margin-right: auto;
-  width: 95%;
   padding-top: 15px;
   color: rebeccapurple;
 }
@@ -282,6 +275,22 @@ footer {
   }
   
   table {
-  width: 100%;
+   border-collapse: collapse;
+   width: 95%;
+  }
+
+  td {
+    font-size: 12px;
+    font-weight: normal;
+  }
+
+  table tr {
+    padding: 15px;
+  }
+
+  table thead{
+    padding: 20px;
+    font-size: 12px;
+
   }
 }

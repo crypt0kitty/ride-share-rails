@@ -15,6 +15,10 @@
   <%= link_to "Drivers", drivers_path%>
 </div>
 <main class="main-container">
+<h3 class= "passenger-title">Additional Trip Information</h3>
+<ul id = "passenger-info-trip-list">
+<p class="edit-trip-text"> <%= link_to 'Edit | ', edit_trip_path(@trip[:id]), class: "b-primary"%><%= link_to 'Delete', destroy_trip_path(@trip), class: "c-primary", method: :delete, data: {confirm: 'Are you sure?' } %>
+</ul>
 <table>
   <thead>
   <tr>
@@ -33,7 +37,6 @@
   </tr>
   </tbody>
 </table>
-<div class="edit-trip-text"> <%= link_to 'Edit | ', edit_trip_path(@trip[:id]), class: "b-primary"%><%= link_to 'Delete', destroy_trip_path(@trip), class: "c-primary", method: :delete, data: {confirm: 'Are you sure?' } %>
 </main>
 <footer class="footer">
 <p id = "footer-text">© Sandy and Rachel</p>

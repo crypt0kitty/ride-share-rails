@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 class DriversController < ApplicationController
   def index
-    @pagy, @drivers = pagy(Driver.all, items: 21)
+    @pagy, @drivers = pagy(Driver.all, items: 24)
   end
 
   def show

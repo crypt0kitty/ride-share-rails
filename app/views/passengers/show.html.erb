@@ -20,7 +20,7 @@
   <li>Passenger ID: <%= @passenger.id %></li>
   <li>Total amount billed: $<%= @passenger.passenger_cost %></li>
   <li>Phone number: <%= @passenger.phone_num %></li>
-  </h4>
+  <p class="edit-trip-text"><%= link_to 'Add new trip', passenger_trips_path(@passenger), class: "a-primary", method: :post %></p>
 </ul>
 <table>
   <thead>
@@ -44,7 +44,6 @@
   <% end %>
   </tbody>
 </table>
-<p class="edit-trip-text"><%= link_to 'Add new trip', passenger_trips_path(@passenger), class: "a-primary", method: :post %></p>
 </main>
 <footer class="footer">
 <p id = "footer-text">© Sandy and Rachel</p>

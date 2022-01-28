@@ -1,6 +1,6 @@
 class PassengersController < ApplicationController
   def index
-    @pagy, @passengers = pagy(Passenger.all, items: 30)
+    @pagy, @passengers = pagy(Passenger.all, items: 15)
   end
 
   def show
