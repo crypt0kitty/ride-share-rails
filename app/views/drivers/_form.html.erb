@@ -15,7 +15,7 @@
   <%= link_to "Drivers", drivers_path%>
 </div>
 <main class="main-container">
-
+<div class="form-styling">
 <%= form_with model: @driver, class: 'edit-driver' do |f| %>
   <h4 class="form-title">Please provide the following information for your driver</h4>
   <% if @driver.errors.any? %>
@@ -41,6 +41,7 @@
   <%= f.submit :Submit, class: "btn btn-primary mx-sm-3  mb-2"%>
 <% end %>
 </form>
+</div>
 <main>
 <footer class="footer">
 <p id = "footer-text">© Sandy and Rachel</p>

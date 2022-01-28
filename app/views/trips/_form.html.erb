@@ -15,6 +15,7 @@
   <%= link_to "Drivers", drivers_path%>
 </div>
 <main class="main-container">
+<div class="form-styling">
 
 <%= form_with model: @trip, class: 'edit-trip' do |f| %>
   <h4 class="form-title">Please provide the following information to edit your trip</h4>
@@ -50,6 +51,7 @@
   <%= f.submit "Edit Trip", class: "btn btn-primary mx-sm-3  mb-2" %>
 <% end %>
 </form>
+</div>
 <main>
 <footer class="footer">
 <p id = "footer-text">© Sandy and Rachel</p>

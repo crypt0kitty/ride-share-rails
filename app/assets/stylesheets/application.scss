@@ -256,3 +256,22 @@ footer {
 .form-control {
   width: 20%;
 }
+
+@media only screen and (max-width: 500px) {
+.form-styling {
+  padding-left: 15px;
+
+ 
+}
+
+.form-title {
+  padding: 0px;
+  padding-top: 40px;
+}
+
+.form-control {
+    width: 50%;
+  }
+
+
+}
