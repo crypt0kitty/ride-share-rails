@@ -19,7 +19,7 @@
 <h4 class= "driver-title">Additional Driver Information</h4>
 <div id = "passenger-info-trip-list">
   <p>Vin: <%= @driver[:vin] %></p>
-  <p> Driver Id: <%=@driver[:id] %></p>
+  <p> Driver ID: <%=@driver[:id] %></p>
 <p>Availabile: <%= driver_availability_string(@driver) %><p>
 
 <h4>More options</h4>Toggle: <%= link_to driver_online_string(@driver), {action: :set_available, id: @driver.id}, method: :patch %><br>
