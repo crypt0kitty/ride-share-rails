@@ -20,7 +20,7 @@
 <div id = "passenger-info-trip-list">
   <p>VIN: <%= @driver[:vin] %></p>
   <p> Driver ID: <%=@driver[:id] %></p>
-<p>Availabile?: <%= driver_availability_string(@driver) %><p>
+<p>Availabile? <%= driver_availability_string(@driver) %><p>
 
 <h4>More options</h4>Toggle: <%= link_to driver_online_string(@driver), {action: :set_available, id: @driver.id}, method: :patch %><br>
   <%= link_to "Delete Driver", destroy_driver_path, class: "c-primary", method: :delete, data: {confirm: "Are you sure?"} %> |
