@@ -115,8 +115,8 @@ html body {
 }
 
 #passenger-info-padding, #driver-info-padding {
-  flex: 1 1 40%; /*grow | shrink | basis */
-  padding: 3px;
+  flex: 1 1 30%; /*grow | shrink | basis */
+  padding: 5px;
 }
 
 #passenger-trip-info {
@@ -219,7 +219,11 @@ a:hover a:link, a:visited, :active {
 }
 
 .title-blue {
-  color: blue
+  color: blue;
+}
+
+.title {
+  color: green;
 }
 
 footer {
@@ -241,6 +245,6 @@ footer {
 .pagy-center {
   display: flex;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 

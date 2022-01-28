@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 class DriversController < ApplicationController
   def index
-    @drivers = Driver.all
+    @pagy, @drivers = pagy(Driver.all, items: 21)
   end
 
   def show
@@ -11,6 +11,7 @@ class DriversController < ApplicationController
       redirect_to drivers_path
       return
       head :not_found
+
       return
     end
   end
