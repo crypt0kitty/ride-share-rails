@@ -18,14 +18,14 @@
 <main class="main-container">
 <h4 class= "driver-title">Additional Driver Information</h4>
 <div id = "passenger-info-trip-list">
-  <p>Vin: <%= @driver[:vin] %></p>
+  <p>VIN: <%= @driver[:vin] %></p>
   <p> Driver ID: <%=@driver[:id] %></p>
 <p>Availabile: <%= driver_availability_string(@driver) %><p>
 
 <h4>More options</h4>Toggle: <%= link_to driver_online_string(@driver), {action: :set_available, id: @driver.id}, method: :patch %><br>
   <%= link_to "Delete Driver", destroy_driver_path, class: "c-primary", method: :delete, data: {confirm: "Are you sure?"} %> |
   <%= link_to "Edit Driver", edit_driver_path, class: "b-primary" %>
-<p><br> <%= @driver[:name] %>'s average rating is: <%= @driver.average_rating %> </p>
+<p><br> <%= @driver[:name] %>'s average rating: <%= @driver.average_rating %> </p>
 <p> Their trips totaled to $<%= @driver.total_money%> and they made $<%= @driver.after_fee %></p>
 </div>
 </div>
