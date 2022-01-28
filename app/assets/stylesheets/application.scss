@@ -258,16 +258,30 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
-.form-styling {
+  .nav {
+    padding: 0px;
+  }
+  
+  .form-styling {
   padding-left: 15px;
-}
-
-.form-title {
+  }
+  
+  .form-title {
   padding: 0px;
   padding-top: 40px;
-}
-
-.form-control {
+  }
+  
+  .form-control {
     width: 55%;
+  }
+  
+  .header h1 {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  
+  table {
+  width: 97%;
   }
 }
