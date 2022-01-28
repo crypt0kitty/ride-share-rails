@@ -1,18 +1,49 @@
-<body class = "passenger-color">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>RideShareRails</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="header">
+  <h1>Passenger Account Form</h1>
+</div>
+<div class="nav">
+  <%= link_to "Home", homepages_path %>
+  <%= link_to "Passengers", passengers_path%>
+  <%= link_to "Drivers", drivers_path%>
+</div>
+<main class="main-container">
+
 <%= form_with model: @passenger do |f| %>
-  <h3>Please provide the following information for your passenger.</h3>
+  <h4 class="form-title">Please provide the following information for your passenger</h4>
   <% if @passenger.errors.any? %>
     <ul>
     <% @passenger.errors.messages.each do |column, message| %>
       <li>
-         <p><%= column %> <%= message %></p>  <!--' %= ' because columns & messages need to be outputted-->
-      </li>l
+         <p><%= column %> <%= message %></p>
+      </li>
       <% end %>
     </ul>
     <% end %>
+
+<div class="form-group mx-sm-3 mb-2">
   <%= f.label :name %>
-  <%= f.text_field :name %>
+  <%= f.text_field :name, class: "form-control", placeholder: "Enter Your Name"%>
+</div>
+
+<div class="form-group mx-sm-3 mb-2">
   <%= f.label :phone_num %>
-  <%= f.text_field :phone_num %>
-  <%= f.submit %>
+  <%= f.text_field :phone_num, class:"form-control", placeholder: "Enter Your Phone number"%>
+  </div>
+<br>
+  <%= f.submit :Submit, class: "btn btn-primary mx-sm-3  mb-2"%>
 <% end %>
+</form>
+<main>
+<footer class="footer">
+<p id = "footer-text">© Sandy and Rachel</p>
+</footer>
+</body>
+</html>
